@@ -10,6 +10,15 @@
   height: auto;
 }
 
+.tikzjax-frame {
+  display: block;
+  width: 100%;
+  min-height: 80px;
+  border: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
 .pdf-panel {
   margin: 1.5em 0;
   border: 1px solid var(--borderColor, #eaecef);
