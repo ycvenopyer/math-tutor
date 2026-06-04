@@ -1,0 +1,85 @@
+.tikzjax-container {
+  display: block;
+  margin: 1.2em 0;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.tikzjax-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.pdf-panel {
+  margin: 1.5em 0;
+  border: 1px solid var(--borderColor, #eaecef);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bodyBackground, #fff);
+}
+
+.pdf-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--borderColor, #eaecef);
+  background: var(--sidebarBackground, #f8f8f8);
+}
+
+.pdf-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pdf-panel .btn {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--borderColor, #ddd);
+  border-radius: 4px;
+  background: #fff;
+  color: inherit;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pdf-panel .btn-primary {
+  background: var(--theme-color, #42b983);
+  border-color: var(--theme-color, #42b983);
+  color: #fff;
+}
+
+.pdf-panel .btn:hover {
+  opacity: 0.9;
+}
+
+.pdf-frame-wrap {
+  position: relative;
+  width: 100%;
+  height: min(70vh, 720px);
+  min-height: 420px;
+  background: #525659;
+}
+
+.pdf-frame-wrap.is-collapsed {
+  display: none;
+}
+
+.pdf-frame,
+.pdf-object {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

@@ -61,24 +61,17 @@
         pre: '<hr/>',
         style: 'font-size: 16px; text-align: center;',
       },
-      plugins: [
-        function (hook) {
-          hook.doneEach(function () {
-            if (window.MathTutor && window.MathTutor.afterRoute) {
-              window.MathTutor.afterRoute();
-            }
-          });
-        }
-      ]
     };
   </script>
 
+  <script src="assets/js/docsify-math.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
   <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="assets/js/docsify-tikz.js"></script>
 
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
@@ -95,7 +88,6 @@
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
-  <script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
-  <script src="assets/js/docsify-math.js"></script>
+  <script src="https://tikzjax.com/v1/tikzjax.js"></script>
 </body>
 </html>
