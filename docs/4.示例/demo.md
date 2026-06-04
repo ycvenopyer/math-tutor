@@ -1,6 +1,6 @@
-﻿# 公式与图形示例
+﻿# 公式与讲义示例
 
-本页演示站点支持的三种能力：**数学公式**、**TikZ 图形**、**PDF 预览与下载**。
+本页演示站点支持的两种能力：**数学公式**、**PDF 预览与下载**。
 
 ## LaTeX 公式
 
@@ -17,31 +17,6 @@ $$
 $$
 \sin^2\theta + \cos^2\theta = 1
 $$
-
-## TikZ 几何图
-
-下面是一个直角三角形示意图（由 TikZJax 在浏览器中渲染）：
-
-```tikz
-\begin{tikzpicture}[scale=1.2]
-  \draw[thick] (0,0) -- (3,0) -- (3,2) -- cycle;
-  \draw (2.7,0) -- (2.7,0.3) -- (3,0.3);
-  \node at (1.5,-0.35) {$a$};
-  \node at (3.35,1) {$b$};
-  \node at (1.2,1.15) {$c$};
-\end{tikzpicture}
-```
-
-坐标系中的抛物线草图：
-
-```tikz
-\begin{tikzpicture}[scale=0.9]
-  \draw[->] (-2.2,0) -- (2.5,0) node[right] {$x$};
-  \draw[->] (0,-0.5) -- (0,3.2) node[above] {$y$};
-  \draw[domain=-1.5:1.5, smooth, thick, blue] plot (\x, {2*\x*\x});
-  \node[blue] at (1.2,2.5) {$y=2x^2$};
-\end{tikzpicture}
-```
 
 ## PDF 讲义
 
