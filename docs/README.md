@@ -8,8 +8,8 @@
 
 * [首页](/)
 * [1.体系介绍](/1.体系介绍/index.md)
-  * [基础知识](/1.体系介绍//knowledge-base.md)
-  * [培优提高](1.体系介绍/knowledge-improve.md)
+  * [基础知识](/1.体系介绍/knowledge-base.md)
+  * [培优提高](/1.体系介绍/knowledge-improve.md)
 * [2.初中](/2.初中/index.md)
   * [方程式与不等式](/2.初中/方程式与不等式.md)
 * [3.高中](/3.高中/index.md)
