@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Central and inscribed angles</title>
+  <desc id="desc">Central angle AOB and inscribed angle ACB subtend the same arc AB</desc>
+  <defs>
+    <style>
+      .main{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .arc{fill:none;stroke:#e76f51;stroke-width:5;stroke-linecap:round}
+      .mark{fill:#fff;stroke:#243447;stroke-width:2}
+      .txt{font:18px Arial,sans-serif;fill:#14213d}
+      .angle{fill:none;stroke:#2a9d8f;stroke-width:3}
+    </style>
+  </defs>
+  <circle class="main" cx="210" cy="150" r="115"/>
+  <path class="arc" d="M111 91 A115 115 0 0 1 309 91"/>
+  <path class="main" d="M210 150 L111 91 M210 150 L309 91 M111 91 L210 265 L309 91"/>
+  <path class="angle" d="M187 136 A27 27 0 0 1 233 136"/>
+  <path class="angle" d="M196 246 A25 25 0 0 1 224 246"/>
+  <circle class="mark" cx="210" cy="150" r="5"/>
+  <circle class="mark" cx="111" cy="91" r="5"/>
+  <circle class="mark" cx="309" cy="91" r="5"/>
+  <circle class="mark" cx="210" cy="265" r="5"/>
+  <text class="txt" x="88" y="82">A</text>
+  <text class="txt" x="318" y="82">B</text>
+  <text class="txt" x="214" y="289">C</text>
+  <text class="txt" x="218" y="163">O</text>
+</svg>

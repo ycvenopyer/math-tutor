@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 210" role="img" aria-labelledby="t d">
+  <title id="t">SSS congruence</title><desc id="d">Triangles ABC and DEF have three pairs of correspondingly marked equal sides.</desc>
+  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linejoin:round}.m{stroke:#e4572e;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
+  <path class="l" d="M32 175L220 175L108 28Z M300 175L488 175L376 28Z"/>
+  <path class="m" d="M123 168v14M391 168v14M65 113l11-8M73 124l11-8M333 113l11-8M341 124l11-8M162 90l-11-8M170 101l-11-8M178 112l-11-8M430 90l-11-8M438 101l-11-8M446 112l-11-8"/>
+  <g class="x"><text x="99" y="22">A</text><text x="15" y="194">B</text><text x="224" y="194">C</text><text x="367" y="22">D</text><text x="283" y="194">E</text><text x="492" y="194">F</text></g>
+</svg>

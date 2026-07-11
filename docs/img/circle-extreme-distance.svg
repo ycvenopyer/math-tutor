@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+<title id="title">Distance from a fixed point to a circle</title>
+<desc id="desc">Point P, center O, and the nearest and farthest points X1 and X2 are collinear.</desc>
+<defs><style>.g{fill:none;stroke:#334155;stroke-width:3}.a{fill:none;stroke:#2563eb;stroke-width:4}.d{fill:#dc2626}.t{font:20px Arial,sans-serif;fill:#0f172a}.s{font:16px Arial,sans-serif;fill:#475569}</style><marker id="m" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker></defs>
+<circle class="g" cx="300" cy="150" r="90"/>
+<line class="g" x1="130" y1="150" x2="610" y2="150" stroke-dasharray="7 7"/>
+<line class="a" x1="300" y1="150" x2="390" y2="150" marker-end="url(#m)"/>
+<circle class="d" cx="300" cy="150" r="6"/><circle class="d" cx="390" cy="150" r="6"/><circle class="d" cx="210" cy="150" r="6"/><circle class="d" cx="560" cy="150" r="6"/>
+<text class="t" x="286" y="180">O</text><text class="t" x="382" y="135">X1</text><text class="t" x="188" y="135">X2</text><text class="t" x="552" y="180">P</text>
+<text class="s" x="330" y="125">r</text><text class="s" x="416" y="112">min = OP - r</text><text class="s" x="150" y="252">max = OP + r</text>
+</svg>

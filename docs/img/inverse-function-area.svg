@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Inverse function and area model</title>
+  <desc id="desc">Two branches of y equals k over x with a rectangle from point P to the axes.</desc>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#334155"/></marker>
+    <style>.axis{stroke:#334155;stroke-width:2}.curve{stroke:#7c3aed;stroke-width:4;fill:none}.area{fill:#fb923c;fill-opacity:.2;stroke:#f97316;stroke-width:2;stroke-dasharray:6 4}.txt{font:16px Arial,sans-serif;fill:#0f172a}.small{font:14px Arial,sans-serif;fill:#475569}</style>
+  </defs>
+  <rect width="720" height="320" rx="16" fill="#f8fafc"/>
+  <path class="axis" marker-end="url(#a)" d="M35 160H690"/><path class="axis" marker-end="url(#a)" d="M360 292V22"/>
+  <text class="txt" x="694" y="166">x</text><text class="txt" x="350" y="20">y</text><text class="small" x="342" y="179">O</text>
+  <path class="curve" d="M378 32C385 74 401 107 425 126C468 151 546 156 676 158"/>
+  <path class="curve" d="M44 162C174 164 252 169 295 194C319 213 335 246 342 288"/>
+  <rect class="area" x="360" y="90" width="140" height="70"/>
+  <circle cx="500" cy="90" r="6" fill="#7c3aed"/><text class="txt" x="510" y="84">P(x,y)</text>
+  <text class="small" x="407" y="128">S=|xy|=|k|</text>
+  <text class="txt" x="536" y="52">y=k/x</text>
+  <text class="small" x="45" y="42">k&gt;0</text>
+</svg>

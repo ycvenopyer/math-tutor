@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+<title id="title">Number theory method map</title>
+<desc id="desc">A central integer node connects to divisibility, factorization, remainders and equations.</desc>
+<defs><style>.n{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.c{fill:#fff7ed;stroke:#ea580c;stroke-width:3}.l{stroke:#64748b;stroke-width:3}.t{font:18px Arial,sans-serif;fill:#0f172a;text-anchor:middle}.s{font:15px Arial,sans-serif;fill:#475569;text-anchor:middle}</style></defs>
+<line class="l" x1="380" y1="145" x2="145" y2="75"/><line class="l" x1="380" y1="145" x2="615" y2="75"/><line class="l" x1="380" y1="145" x2="145" y2="235"/><line class="l" x1="380" y1="145" x2="615" y2="235"/>
+<rect class="n" x="55" y="35" width="180" height="80" rx="15"/><rect class="n" x="525" y="35" width="180" height="80" rx="15"/><rect class="n" x="55" y="195" width="180" height="80" rx="15"/><rect class="n" x="525" y="195" width="180" height="80" rx="15"/>
+<circle class="c" cx="380" cy="145" r="85"/>
+<text class="t" x="380" y="138">INTEGER</text><text class="s" x="380" y="166">define the domain</text>
+<text class="t" x="145" y="70">DIVISIBILITY</text><text class="s" x="145" y="94">a | b</text>
+<text class="t" x="615" y="70">FACTORIZATION</text><text class="s" x="615" y="94">prime powers</text>
+<text class="t" x="145" y="230">REMAINDER</text><text class="s" x="145" y="254">mod m</text>
+<text class="t" x="615" y="230">EQUATION</text><text class="s" x="615" y="254">integer solutions</text>
+</svg>

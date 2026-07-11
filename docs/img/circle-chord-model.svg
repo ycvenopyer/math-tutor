@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 290" role="img" aria-labelledby="title desc">
+  <title id="title">Perpendicular diameter and chord</title>
+  <desc id="desc">Diameter CD is perpendicular to chord AB at M and bisects the chord and both arcs.</desc>
+  <defs><style>.main{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round}.diam{stroke:#2a9d8f;stroke-width:3}.dash{stroke:#8d99ae;stroke-width:2;stroke-dasharray:7 6}.point{fill:#fff;stroke:#243447;stroke-width:2}.txt{font:18px Arial,sans-serif;fill:#14213d}.arc1{fill:none;stroke:#f59e0b;stroke-width:5}.arc2{fill:none;stroke:#16a34a;stroke-width:5}</style></defs>
+  <circle class="main" cx="210" cy="140" r="112"/>
+  <path class="arc1" d="M105 101A112 112 0 0 1 210 28M210 28A112 112 0 0 1 315 101"/>
+  <path class="arc2" d="M315 101A112 112 0 0 1 210 252M210 252A112 112 0 0 1 105 101"/>
+  <line class="main" x1="105" y1="101" x2="315" y2="101"/>
+  <line class="diam" x1="210" y1="28" x2="210" y2="252"/>
+  <path class="dash" d="M210 140L105 101M210 140L315 101"/>
+  <path class="main" d="M210 115H224V101"/>
+  <path class="diam" d="M178 95V107M242 95V107"/>
+  <g><circle class="point" cx="210" cy="140" r="5"/><circle class="point" cx="105" cy="101" r="5"/><circle class="point" cx="315" cy="101" r="5"/><circle class="point" cx="210" cy="101" r="5"/><circle class="point" cx="210" cy="28" r="5"/><circle class="point" cx="210" cy="252" r="5"/></g>
+  <g class="txt"><text x="83" y="92">A</text><text x="325" y="92">B</text><text x="218" y="96">M</text><text x="218" y="158">O</text><text x="218" y="25">C</text><text x="218" y="275">D</text></g>
+</svg>

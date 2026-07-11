@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="t d">
+  <title id="t">Triangle angle sum construction</title><desc id="d">A line through vertex A parallel to BC displays the three angles on a straight line.</desc>
+  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linecap:round}.q{fill:none;stroke:#d1495b;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
+  <path class="l" d="M32 55H328M75 202H295L180 55Z"/>
+  <path class="l" d="M55 47l12 8-12 8M75 47l12 8-12 8M245 194l12 8-12 8M265 194l12 8-12 8"/>
+  <path class="q" d="M154 55a28 28 0 0 0 9 21M163 76a25 25 0 0 0 34 0M197 76a28 28 0 0 0 9-21"/>
+  <g class="x"><text x="174" y="45">A</text><text x="61" y="220">B</text><text x="297" y="220">C</text><text x="19" y="48">D</text><text x="331" y="48">E</text></g>
+</svg>

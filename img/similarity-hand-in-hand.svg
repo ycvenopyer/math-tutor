@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="290" viewBox="0 0 420 290" role="img" aria-labelledby="title desc">
+  <title id="title">Rotational similarity hand-in-hand model</title>
+  <desc id="desc">Two triangles BAD and CAE share vertex A and have equal included angles.</desc>
+  <defs>
+    <style>.edge{fill:none;stroke:#334155;stroke-width:3;stroke-linejoin:round}.left{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.right{fill:#dcfce7;stroke:#16a34a;stroke-width:3}.point{fill:#dc2626}.label{font:20px Arial,sans-serif;fill:#0f172a}.arc{fill:none;stroke:#f59e0b;stroke-width:3}</style>
+  </defs>
+  <path class="left" d="M205 135L38 250L125 48Z"/>
+  <path class="right" d="M205 135L365 248L300 42Z"/>
+  <path class="edge" d="M38 250L205 135L125 48M365 248L205 135L300 42"/>
+  <path class="arc" d="M180 118A32 32 0 0 1 183 158"/>
+  <path class="arc" d="M228 157A32 32 0 0 1 231 116"/>
+  <g class="point"><circle cx="205" cy="135" r="5"/><circle cx="38" cy="250" r="5"/><circle cx="125" cy="48" r="5"/><circle cx="365" cy="248" r="5"/><circle cx="300" cy="42" r="5"/></g>
+  <g class="label"><text x="198" y="126">A</text><text x="18" y="274">B</text><text x="108" y="38">D</text><text x="370" y="272">C</text><text x="300" y="32">E</text></g>
+</svg>
