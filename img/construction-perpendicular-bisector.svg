@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="t d">
-  <title id="t">Perpendicular bisector construction</title><desc id="d">Equal-radius arcs centered at A and B meet at P and Q; line PQ bisects AB.</desc>
-  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#168aad;stroke-width:2}.p{fill:#263746}.x{font:16px Arial;fill:#17202a}</style></defs>
-  <path class="l" d="M45 115H315M180 15V215"/>
-  <path class="a" d="M45 115A155 155 0 0 1 180 38M45 115A155 155 0 0 0 180 192M315 115A155 155 0 0 0 180 38M315 115A155 155 0 0 1 180 192"/>
-  <g class="p"><circle cx="45" cy="115" r="4"/><circle cx="315" cy="115" r="4"/><circle cx="180" cy="38" r="4"/><circle cx="180" cy="192" r="4"/><circle cx="180" cy="115" r="4"/></g>
-  <path class="l" d="M168 115v12h12"/>
-  <g class="x"><text x="29" y="108">A</text><text x="320" y="108">B</text><text x="188" y="36">P</text><text x="188" y="207">Q</text><text x="187" y="110">M</text></g>
-</svg>

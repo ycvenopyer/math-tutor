@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 210" role="img" aria-labelledby="t d">
-  <title id="t">Converse parallel criterion</title><desc id="d">Lines AB and CD are cut by EF; a pair of equal alternate interior angles is marked.</desc>
-  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#168aad;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
-  <path class="l" d="M24 51L322 72M30 169L328 190M102 200L245 18"/>
-  <path class="a" d="M218 65a25 25 0 0 0-10 20M139 177a25 25 0 0 0 10-20"/>
-  <g fill="#263746"><circle cx="218" cy="65" r="4"/><circle cx="139" cy="177" r="4"/></g>
-  <g class="x"><text x="12" y="47">A</text><text x="326" y="73">B</text><text x="17" y="185">C</text><text x="331" y="201">D</text><text x="247" y="19">E</text><text x="86" y="205">F</text></g>
-</svg>

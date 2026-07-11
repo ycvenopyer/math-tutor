@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 230" role="img" aria-labelledby="t d">
-  <title id="t">Angle bisector construction</title><desc id="d">An arc centered at O meets the rays at A and B; equal arcs meet at P and OP bisects the angle.</desc>
-  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#168aad;stroke-width:2}.q{fill:none;stroke:#e4572e;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
-  <path class="l" d="M40 195L315 195M40 195L140 22M40 195L201 102"/>
-  <path class="a" d="M110 195A70 70 0 0 0 75 134.4M110 195A130 130 0 0 0 201 102M75 134.4A130 130 0 0 1 201 102"/>
-  <path class="q" d="M72 195a32 32 0 0 0-4.3-16M67.7 179a32 32 0 0 0 12.3 10"/>
-  <g fill="#263746"><circle cx="40" cy="195" r="4"/><circle cx="110" cy="195" r="4"/><circle cx="75" cy="134.4" r="4"/><circle cx="201" cy="102" r="4"/></g>
-  <g class="x"><text x="23" y="214">O</text><text x="111" y="216">C</text><text x="58" y="130">D</text><text x="207" y="100">P</text><text x="318" y="201">A</text><text x="141" y="21">B</text></g>
-</svg>
