@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
-<title id="title">Linear function slope and intercept</title><desc id="desc">Coordinate plane showing y equals kx plus b, intercept b, and change ratio.</desc>
-<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#334155"/></marker><style>.axis{stroke:#334155;stroke-width:2}.grid{stroke:#e2e8f0}.line{stroke:#2563eb;stroke-width:4;fill:none}.dash{stroke:#f97316;stroke-width:2;stroke-dasharray:6 5;fill:none}.txt{font:16px Arial,sans-serif;fill:#0f172a}.small{font:14px Arial,sans-serif;fill:#475569}</style></defs>
-<rect width="720" height="300" rx="16" fill="#f8fafc"/><path class="grid" d="M70 40H680M70 90H680M70 140H680M70 190H680M70 240H680M130 25V265M230 25V265M330 25V265M430 25V265M530 25V265M630 25V265"/>
-<path class="axis" marker-end="url(#a)" d="M60 240H690"/><path class="axis" marker-end="url(#a)" d="M130 270V18"/><text class="txt" x="694" y="246">x</text><text class="txt" x="121" y="18">y</text><text class="small" x="112" y="260">O</text>
-<path class="line" d="M72 250L650 47"/><circle cx="130" cy="230" r="5" fill="#2563eb"/><text class="txt" x="98" y="218">b</text><circle cx="330" cy="160" r="5" fill="#2563eb"/><circle cx="530" cy="90" r="5" fill="#2563eb"/><path class="dash" d="M330 160H530V90"/>
-<text class="small" x="405" y="181">&#916;x</text><text class="small" x="542" y="129">&#916;y</text><text class="txt" x="548" y="66">y = kx + b</text><text class="small" x="377" y="118">k = &#916;y / &#916;x</text>
-</svg>

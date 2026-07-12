@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Isosceles right triangle">
+  <defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linejoin:round}.r{fill:none;stroke:#e4572e;stroke-width:2.5}.tick{stroke:#f59e0b;stroke-width:3}.p{fill:#243447}.t{font:16px Arial,sans-serif;fill:#17202a}</style></defs>
+  <path class="g" d="M70 40 V220 H250 Z"/>
+  <path class="r" d="M70 204 H86 V220"/>
+  <path class="tick" d="M63 120 H77 M156 205 l9 9"/>
+  <g class="p"><circle cx="70" cy="40" r="4"/><circle cx="70" cy="220" r="4"/><circle cx="250" cy="220" r="4"/></g>
+  <g class="t"><text x="55" y="36">A</text><text x="50" y="240">B</text><text x="255" y="240">C</text></g>
+</svg>

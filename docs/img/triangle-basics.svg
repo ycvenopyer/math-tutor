@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-label="Triangle medians and altitude">
+  <defs><style>.g{fill:none;stroke:#243447;stroke-width:2.5;stroke-linejoin:round}.m{fill:none;stroke:#168aad;stroke-width:2}.r{fill:none;stroke:#e4572e;stroke-width:2}.p{fill:#e4572e}.t{font:15px Arial,sans-serif;fill:#17202a}</style></defs>
+  <path class="g" d="M210 30 L40 240 H380 Z"/>
+  <path class="m" d="M210 30 L210 240 M40 240 L295 135 M380 240 L125 135"/>
+  <path class="r" d="M210 224 H226 V240"/>
+  <circle class="p" cx="210" cy="168" r="4"/>
+  <g class="t"><text x="204" y="22">A</text><text x="20" y="260">B</text><text x="385" y="260">C</text><text x="216" y="255">D</text><text x="218" y="165">G</text></g>
+</svg>

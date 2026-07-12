@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-label="Right triangle trigonometry">
+  <defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linejoin:round}.a{fill:none;stroke:#e4572e;stroke-width:3}.p{fill:#243447}.t{font:16px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}</style></defs>
+  <path class="g" d="M60 220 L60 60 L340 220 Z"/>
+  <path class="g" d="M60 200 H80 V220"/>
+  <path class="a" d="M90 220 A30 30 0 0 1 85 195"/>
+  <g class="p"><circle cx="60" cy="220" r="4"/><circle cx="60" cy="60" r="4"/><circle cx="340" cy="220" r="4"/></g>
+  <g class="t"><text x="42" y="240">A</text><text x="42" y="52">B</text><text x="348" y="240">C</text><text x="95" y="205">theta</text></g>
+  <g class="s"><text x="180" y="245">adj = AC</text><text x="8" y="150">opp = AB</text><text x="200" y="120">hyp = BC</text></g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Perpendicular bisector construction">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.5;fill:none}
+      .a{stroke:#1d4ed8;stroke-width:2;fill:none}
+      .p{stroke:#c2410c;stroke-width:2.2;fill:none}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .d{fill:#243447}
+    </style>
+  </defs>
+  <!-- segment AB -->
+  <line class="L" x1="120" y1="160" x2="520" y2="160"/>
+  <!-- arcs centered at A and B, radius > AB/2 -->
+  <path class="a" d="M220 70 A200 200 0 0 1 220 250"/>
+  <path class="a" d="M420 70 A200 200 0 0 0 420 250"/>
+  <!-- perpendicular bisector through intersection points P, Q -->
+  <line class="p" x1="320" y1="40" x2="320" y2="280"/>
+  <!-- right-angle mark at midpoint M -->
+  <path class="L" d="M320 160 V145 H335" stroke-width="1.8"/>
+  <circle class="d" cx="120" cy="160" r="3.5"/>
+  <circle class="d" cx="520" cy="160" r="3.5"/>
+  <circle class="d" cx="320" cy="160" r="3.5"/>
+  <circle class="d" cx="320" cy="70" r="3.5"/>
+  <circle class="d" cx="320" cy="250" r="3.5"/>
+  <text class="t" x="100" y="148">A</text>
+  <text class="t" x="528" y="148">B</text>
+  <text class="t" x="328" y="152">M</text>
+  <text class="t" x="328" y="58">P</text>
+  <text class="t" x="328" y="272">Q</text>
+  <text class="s" x="40" y="308">blue arcs (centers A, B) meet at P, Q; red line PQ is the perpendicular bisector of AB</text>
+</svg>

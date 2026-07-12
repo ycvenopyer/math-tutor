@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" role="img" aria-label="Rotation of a triangle">
+  <defs><style>.g{fill:none;stroke:#243447;stroke-width:2.5;stroke-linejoin:round}.d{fill:none;stroke:#168aad;stroke-width:2;stroke-dasharray:6 4}.a{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:15px Arial,sans-serif;fill:#17202a}</style></defs>
+  <path class="g" d="M80 180 L140 70 L200 180 Z"/>
+  <path class="d" d="M260 180 L360 120 L420 200 Z"/>
+  <circle class="p" cx="220" cy="180" r="5"/>
+  <path class="a" d="M160 180 A60 60 0 0 1 280 160"/>
+  <g class="t"><text x="70" y="200">A</text><text x="132" y="62">B</text><text x="205" y="200">C</text><text x="250" y="200">O</text><text x="250" y="110">A'</text><text x="365" y="110">B'</text><text x="425" y="220">C'</text></g>
+</svg>

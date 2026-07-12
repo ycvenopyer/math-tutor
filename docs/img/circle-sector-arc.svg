@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-label="Sector and arc">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.4;fill:none}
+      .arc{stroke:#c2410c;stroke-width:3.2;fill:none}
+      .rad{stroke:#1d4ed8;stroke-width:2.2;fill:none}
+      .fill{fill:#dbeafe;stroke:none;opacity:0.55}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .p{fill:#243447}
+    </style>
+  </defs>
+  <!-- O(240,200) R=140; A at -50deg, B at 20deg from +x (SVG y down) -->
+  <!-- A: 240+140*cos(-50°), 200+140*sin(-50°) = 240+90, 200-107 = (330,93) -->
+  <!-- B: 240+140*cos(20°), 200+140*sin(20°) = 240+132, 200+48 = (372,248) -->
+  <path class="fill" d="M240 200 L330 93 A140 140 0 0 1 372 248 Z"/>
+  <circle class="L" cx="240" cy="200" r="140"/>
+  <line class="rad" x1="240" y1="200" x2="330" y2="93"/>
+  <line class="rad" x1="240" y1="200" x2="372" y2="248"/>
+  <path class="arc" d="M330 93 A140 140 0 0 1 372 248"/>
+  <path class="L" d="M275 175 A42 42 0 0 1 278 220" stroke-width="1.6"/>
+  <circle class="p" cx="240" cy="200" r="3.5"/>
+  <circle class="p" cx="330" cy="93" r="3.5"/>
+  <circle class="p" cx="372" cy="248" r="3.5"/>
+  <text class="t" x="222" y="220">O</text>
+  <text class="t" x="336" y="84">A</text>
+  <text class="t" x="380" y="260">B</text>
+  <text class="t" x="278" y="198">n&#xB0;</text>
+  <text class="s" x="90" y="310">sector AOB = radii OA, OB + arc AB</text>
+</svg>

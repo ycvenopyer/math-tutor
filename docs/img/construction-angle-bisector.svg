@@ -1,9 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 230" role="img" aria-labelledby="t d">
-  <title id="t">Angle bisector construction</title><desc id="d">An arc centered at O meets the rays at A and B; equal arcs meet at P and OP bisects the angle.</desc>
-  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#168aad;stroke-width:2}.q{fill:none;stroke:#e4572e;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
-  <path class="l" d="M40 195L315 195M40 195L140 22M40 195L201 102"/>
-  <path class="a" d="M110 195A70 70 0 0 0 75 134.4M110 195A130 130 0 0 0 201 102M75 134.4A130 130 0 0 1 201 102"/>
-  <path class="q" d="M72 195a32 32 0 0 0-4.3-16M67.7 179a32 32 0 0 0 12.3 10"/>
-  <g fill="#263746"><circle cx="40" cy="195" r="4"/><circle cx="110" cy="195" r="4"/><circle cx="75" cy="134.4" r="4"/><circle cx="201" cy="102" r="4"/></g>
-  <g class="x"><text x="23" y="214">O</text><text x="111" y="216">C</text><text x="58" y="130">D</text><text x="207" y="100">P</text><text x="318" y="201">A</text><text x="141" y="21">B</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Angle bisector construction">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.5;fill:none}
+      .a{stroke:#1d4ed8;stroke-width:2;fill:none}
+      .b{stroke:#c2410c;stroke-width:2.2;fill:none}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .d{fill:#243447}
+      .f{fill:#c2410c;fill-opacity:.2;stroke:#c2410c;stroke-width:1.2}
+    </style>
+  </defs>
+  <!-- rays OA, OB -->
+  <line class="L" x1="80" y1="260" x2="560" y2="260"/>
+  <line class="L" x1="80" y1="260" x2="420" y2="40"/>
+  <!-- arc centered at O cutting both rays at C, D -->
+  <path class="a" d="M260 260 A180 180 0 0 1 215 105"/>
+  <!-- equal arcs from C and D meeting at E -->
+  <path class="a" d="M215 105 A110 110 0 0 1 320 200"/>
+  <path class="a" d="M260 260 A110 110 0 0 0 320 200"/>
+  <!-- angle bisector OE -->
+  <line class="b" x1="80" y1="260" x2="520" y2="140"/>
+  <!-- small equal-angle marks -->
+  <path class="f" d="M140 260 A60 60 0 0 1 128 205 L80 260 Z"/>
+  <path class="f" d="M140 260 A60 60 0 0 0 195 245 L80 260 Z"/>
+  <circle class="d" cx="80" cy="260" r="3.5"/>
+  <circle class="d" cx="260" cy="260" r="3.5"/>
+  <circle class="d" cx="215" cy="105" r="3.5"/>
+  <circle class="d" cx="320" cy="200" r="3.5"/>
+  <text class="t" x="58" y="280">O</text>
+  <text class="t" x="568" y="270">A</text>
+  <text class="t" x="428" y="36">B</text>
+  <text class="t" x="268" y="280">C</text>
+  <text class="t" x="190" y="95">D</text>
+  <text class="t" x="332" y="195">E</text>
+  <text class="s" x="40" y="308">arc (center O) cuts OA, OB at C, D; equal arcs from C, D meet at E; ray OE bisects angle AOB</text>
 </svg>

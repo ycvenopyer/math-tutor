@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-label="多边形与平行四边形">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.5;fill:none}
+      .d{stroke:#1d4ed8;stroke-width:1.8;fill:none;stroke-dasharray:5 4}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .p{fill:#243447}
+      .tick{stroke:#1d4ed8;stroke-width:2.2}
+    </style>
+  </defs>
+  <!-- left: convex pentagon ABCDE with diagonals from A -->
+  <polygon class="L" points="120,40 220,90 200,220 60,220 40,90"/>
+  <line class="d" x1="120" y1="40" x2="200" y2="220"/>
+  <line class="d" x1="120" y1="40" x2="60" y2="220"/>
+  <circle class="p" cx="120" cy="40" r="3"/><circle class="p" cx="220" cy="90" r="3"/>
+  <circle class="p" cx="200" cy="220" r="3"/><circle class="p" cx="60" cy="220" r="3"/>
+  <circle class="p" cx="40" cy="90" r="3"/>
+  <text class="t" x="112" y="28">A</text>
+  <text class="t" x="228" y="88">B</text>
+  <text class="t" x="204" y="240">C</text>
+  <text class="t" x="44" y="240">D</text>
+  <text class="t" x="18" y="88">E</text>
+  <text class="s" x="30" y="272">五边形：从 A 引对角线分成 (5-2)=3 个三角形</text>
+
+  <!-- right: parallelogram ABCD with diagonals bisecting at O -->
+  <polygon class="L" points="380,80 560,60 600,220 420,240"/>
+  <line class="d" x1="380" y1="80" x2="600" y2="220"/>
+  <line class="d" x1="560" y1="60" x2="420" y2="240"/>
+  <line class="tick" x1="465" y1="65" x2="475" y2="78"/>
+  <line class="tick" x1="505" y1="225" x2="515" y2="238"/>
+  <line class="tick" x1="395" y1="155" x2="408" y2="162"/>
+  <line class="tick" x1="400" y1="148" x2="413" y2="155"/>
+  <line class="tick" x1="575" y1="135" x2="588" y2="142"/>
+  <line class="tick" x1="580" y1="128" x2="593" y2="135"/>
+  <circle class="p" cx="380" cy="80" r="3"/><circle class="p" cx="560" cy="60" r="3"/>
+  <circle class="p" cx="600" cy="220" r="3"/><circle class="p" cx="420" cy="240" r="3"/>
+  <circle class="p" cx="490" cy="150" r="3.5"/>
+  <text class="t" x="358" y="72">A</text>
+  <text class="t" x="566" y="52">B</text>
+  <text class="t" x="606" y="238">C</text>
+  <text class="t" x="400" y="258">D</text>
+  <text class="t" x="496" y="146">O</text>
+  <text class="s" x="370" y="282">平行四边形：OA=OC，OB=OD</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="特殊平行四边形从属关系">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.4;fill:none}
+      .box{stroke:#243447;stroke-width:1.6;fill:#f8fafc}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .h{font:15px Arial,sans-serif;fill:#17202a;font-weight:700}
+      .p{fill:#243447}
+      .arrow{stroke:#64748b;stroke-width:1.8;fill:none;marker-end:url(#arr)}
+      .tick{stroke:#1d4ed8;stroke-width:2}
+      .rt{stroke:#c2410c;stroke-width:1.8;fill:none}
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- top: parallelogram -->
+  <rect class="box" x="255" y="12" width="190" height="34" rx="4"/>
+  <text class="h" x="300" y="35">平行四边形</text>
+  <polygon class="L" points="290,65 420,55 450,125 320,135"/>
+  <circle class="p" cx="290" cy="65" r="2.5"/><circle class="p" cx="420" cy="55" r="2.5"/>
+  <circle class="p" cx="450" cy="125" r="2.5"/><circle class="p" cx="320" cy="135" r="2.5"/>
+  <text class="s" x="285" y="160">对边平行且相等</text>
+
+  <line class="arrow" x1="310" y1="170" x2="160" y2="200"/>
+  <line class="arrow" x1="390" y1="170" x2="540" y2="200"/>
+
+  <!-- left: rectangle -->
+  <rect class="box" x="75" y="205" width="140" height="32" rx="4"/>
+  <text class="h" x="115" y="227">矩形</text>
+  <text class="s" x="72" y="252">有一个角是直角</text>
+  <polygon class="L" points="90,265 210,265 210,335 90,335"/>
+  <path class="rt" d="M90 320 H105 V335"/>
+  <line class="L" x1="90" y1="265" x2="210" y2="335" stroke-dasharray="4 3" stroke-width="1.6"/>
+  <line class="L" x1="210" y1="265" x2="90" y2="335" stroke-dasharray="4 3" stroke-width="1.6"/>
+  <text class="s" x="108" y="358">对角线相等</text>
+
+  <!-- right: rhombus -->
+  <rect class="box" x="485" y="205" width="140" height="32" rx="4"/>
+  <text class="h" x="525" y="227">菱形</text>
+  <text class="s" x="478" y="252">有一组邻边相等</text>
+  <polygon class="L" points="555,270 640,305 555,360 470,305"/>
+  <line class="L" x1="555" y1="270" x2="555" y2="360" stroke-dasharray="4 3" stroke-width="1.6"/>
+  <line class="L" x1="470" y1="305" x2="640" y2="305" stroke-dasharray="4 3" stroke-width="1.6"/>
+  <line class="tick" x1="508" y1="283" x2="518" y2="293"/>
+  <line class="tick" x1="592" y1="283" x2="602" y2="293"/>
+  <line class="tick" x1="508" y1="337" x2="518" y2="327"/>
+  <line class="tick" x1="592" y1="337" x2="602" y2="327"/>
+  <text class="s" x="510" y="382">对角线垂直</text>
+
+  <line class="arrow" x1="150" y1="370" x2="300" y2="400"/>
+  <line class="arrow" x1="550" y1="375" x2="400" y2="400"/>
+
+  <!-- bottom: square -->
+  <rect class="box" x="255" y="405" width="120" height="32" rx="4"/>
+  <text class="h" x="280" y="427">正方形</text>
+  <polygon class="L" points="400,405 460,405 460,465 400,465"/>
+  <path class="rt" d="M400 450 H412 V465"/>
+  <line class="tick" x1="425" y1="403" x2="435" y2="413"/>
+  <line class="tick" x1="458" y1="430" x2="468" y2="440"/>
+  <text class="s" x="180" y="490">矩形加邻边相等 / 菱形加一个直角</text>
+</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 250" role="img" aria-labelledby="t d">
-  <title id="t">Extend a median auxiliary line</title><desc id="d">Median AM is extended to D with AM equal to MD, creating triangles ABM and DCM.</desc>
-  <defs><style>.l{fill:none;stroke:#263746;stroke-width:3;stroke-linejoin:round}.m{stroke:#e4572e;stroke-width:3}.x{font:16px Arial;fill:#17202a}</style></defs>
-  <path class="l" d="M35 125H285L160 25L160 225L285 125M35 125L160 25"/>
-  <path class="m" d="M95 118v14M225 118v14M153 75h14M153 175h14"/>
-  <path fill="none" stroke="#168aad" stroke-width="3" d="M146 111a20 20 0 0 1 14-6M160 145a20 20 0 0 0 14-6"/>
-  <g fill="#263746"><circle cx="160" cy="125" r="4"/></g>
-  <g class="x"><text x="152" y="19">A</text><text x="18" y="130">B</text><text x="289" y="130">C</text><text x="152" y="243">D</text><text x="166" y="121">M</text></g>
-</svg>

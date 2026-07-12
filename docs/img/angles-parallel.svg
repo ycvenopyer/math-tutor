@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Parallel lines and transversal">
+  <defs><style>.l{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#e4572e;stroke-width:4}.p{fill:#243447}.t{font:16px Arial,sans-serif;fill:#17202a}</style></defs>
+  <path class="l" d="M28 55 H332 M28 170 H332 M110 202 L245 18"/>
+  <path class="l" d="M58 47 l12 8 -12 8 M78 47 l12 8 -12 8 M276 162 l12 8 -12 8 M296 162 l12 8 -12 8"/>
+  <path class="a" d="M190 55 A28 28 0 0 0 201 77 M162 170 A28 28 0 0 0 151 148"/>
+  <g class="p"><circle cx="218" cy="55" r="4"/><circle cx="134" cy="170" r="4"/></g>
+  <g class="t"><text x="17" y="47">A</text><text x="335" y="48">B</text><text x="17" y="190">C</text><text x="335" y="190">D</text><text x="225" y="76">E</text><text x="111" y="164">F</text></g>
+</svg>

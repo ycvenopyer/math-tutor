@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Perpendicular diameter theorem">
+  <defs>
+    <style>
+      .L{stroke:#243447;stroke-width:2.5;fill:none}
+      .c{stroke:#243447;stroke-width:2.5;fill:none}
+      .d{stroke:#1d4ed8;stroke-width:2.2;fill:none}
+      .ch{stroke:#c2410c;stroke-width:2.8;fill:none}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .p{fill:#243447}
+    </style>
+  </defs>
+  <!-- O(210,200) R=140; CD diameter; AB chord y=260, half=126 -->
+  <circle class="c" cx="210" cy="200" r="140"/>
+  <line class="d" x1="210" y1="60" x2="210" y2="340"/>
+  <line class="ch" x1="84" y1="260" x2="336" y2="260"/>
+  <path class="L" d="M210 245 H225 V260" stroke-width="1.8"/>
+  <circle class="p" cx="210" cy="200" r="3.5"/>
+  <circle class="p" cx="84" cy="260" r="3.5"/>
+  <circle class="p" cx="336" cy="260" r="3.5"/>
+  <circle class="p" cx="210" cy="260" r="3.5"/>
+  <circle class="p" cx="210" cy="60" r="3.5"/>
+  <circle class="p" cx="210" cy="340" r="3.5"/>
+  <text class="t" x="218" y="196">O</text>
+  <text class="t" x="66" y="278">A</text>
+  <text class="t" x="342" y="278">B</text>
+  <text class="t" x="218" y="278">M</text>
+  <text class="t" x="218" y="52">C</text>
+  <text class="t" x="218" y="360">D</text>
+  <text class="s" x="55" y="390">CD &#x22A5; AB at M &#x2192; AM=MB; arcs AC=BC, AD=BD</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-label="Three orthographic views">
+  <defs><style>.box{stroke:#243447;stroke-width:2.2;fill:#e8eef5}.t{font:15px Arial,sans-serif;fill:#17202a;text-anchor:middle}.s{stroke:#243447;stroke-width:2;fill:#c7d2e0}</style></defs>
+  <g transform="translate(30,40)">
+    <rect class="box" x="0" y="40" width="120" height="80"/>
+    <rect class="s" x="0" y="40" width="40" height="80"/>
+    <text class="t" x="60" y="20">F</text>
+  </g>
+  <g transform="translate(200,40)">
+    <rect class="box" x="0" y="40" width="80" height="80"/>
+    <rect class="s" x="0" y="40" width="30" height="80"/>
+    <text class="t" x="40" y="20">L</text>
+  </g>
+  <g transform="translate(360,40)">
+    <rect class="box" x="0" y="40" width="120" height="80"/>
+    <rect class="s" x="0" y="40" width="40" height="80"/>
+    <text class="t" x="60" y="20">T</text>
+  </g>
+</svg>

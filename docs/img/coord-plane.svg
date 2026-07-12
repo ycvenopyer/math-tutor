@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Coordinate plane with four quadrants">
+  <defs>
+    <style>
+      .ax{stroke:#243447;stroke-width:2;fill:none}
+      .g{stroke:#dbe3ec;stroke-width:1;fill:none}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .p{fill:#c2410c}
+      .l{stroke:#c2410c;stroke-width:1.5;stroke-dasharray:4 3;fill:none}
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#243447"/></marker>
+  </defs>
+  <!-- light grid -->
+  <g class="g">
+    <line x1="80" y1="40" x2="80" y2="320"/><line x1="140" y1="40" x2="140" y2="320"/>
+    <line x1="260" y1="40" x2="260" y2="320"/><line x1="320" y1="40" x2="320" y2="320"/>
+    <line x1="380" y1="40" x2="380" y2="320"/>
+    <line x1="40" y1="80" x2="440" y2="80"/><line x1="40" y1="140" x2="440" y2="140"/>
+    <line x1="40" y1="220" x2="440" y2="220"/><line x1="40" y1="280" x2="440" y2="280"/>
+  </g>
+  <!-- axes -->
+  <line class="ax" x1="40" y1="180" x2="440" y2="180" marker-end="url(#arr)"/>
+  <line class="ax" x1="200" y1="320" x2="200" y2="40" marker-end="url(#arr)"/>
+  <text class="t" x="448" y="186">x</text>
+  <text class="t" x="208" y="36">y</text>
+  <text class="t" x="206" y="196">O</text>
+  <!-- quadrant labels -->
+  <text class="s" x="280" y="100">I (+,+)</text>
+  <text class="s" x="90" y="100">II (-,+)</text>
+  <text class="s" x="90" y="260">III (-,-)</text>
+  <text class="s" x="280" y="260">IV (+,-)</text>
+  <!-- sample point P(3,2) -->
+  <line class="l" x1="320" y1="180" x2="320" y2="100"/>
+  <line class="l" x1="200" y1="100" x2="320" y2="100"/>
+  <circle class="p" cx="320" cy="100" r="5"/>
+  <text class="t" x="330" y="96">P(3,2)</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Inverse proportion hyperbola y=k/x branches">
+  <defs>
+    <style>
+      .ax{stroke:#243447;stroke-width:2;fill:none}
+      .h{stroke:#0f766e;stroke-width:2.5;fill:none}
+      .n{stroke:#b45309;stroke-width:2.5;fill:none}
+      .d{stroke:#94a3b8;stroke-width:1.2;stroke-dasharray:4 3;fill:none}
+      .t{font:15px Arial,sans-serif;fill:#17202a}
+      .s{font:13px Arial,sans-serif;fill:#475569}
+      .p{fill:#0f766e}
+    </style>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#243447"/></marker>
+  </defs>
+  <line class="ax" x1="40" y1="180" x2="440" y2="180" marker-end="url(#arr3)"/>
+  <line class="ax" x1="240" y1="320" x2="240" y2="40" marker-end="url(#arr3)"/>
+  <text class="t" x="448" y="186">x</text>
+  <text class="t" x="248" y="36">y</text>
+  <text class="t" x="222" y="196">O</text>
+  <!-- asymptotes hint -->
+  <line class="d" x1="240" y1="40" x2="240" y2="320"/>
+  <line class="d" x1="40" y1="180" x2="440" y2="180"/>
+  <!-- y = 6/x  (k>0): unit 30px; at x=1 -> y=6; x=2 -> y=3; x=3 -> y=2; x=6 -> y=1 -->
+  <!-- origin (240,180); +x right, +y up -->
+  <path class="h" d="M270,60 C280,90 300,130 330,150 C360,170 400,176 430,178"/>
+  <path class="h" d="M210,300 C200,270 180,230 150,210 C120,190 80,184 50,182"/>
+  <!-- sample point and |k| rectangle in Q1: P(2,3) -> (240+60,180-90)=(300,90) -->
+  <path class="d" d="M240 90 H300 V180"/>
+  <circle class="p" cx="300" cy="90" r="4"/>
+  <text class="t" x="308" y="86">P</text>
+  <text class="s" x="248" y="140">|k|</text>
+  <text class="s" x="300" y="60">k&gt;0: QI, QIII</text>
+  <!-- faint k&lt;0 hint in QII as dashed orange branch tip -->
+  <path class="n" d="M210,60 C200,90 180,130 150,150 C120,170 80,176 50,178" opacity="0.55"/>
+  <path class="n" d="M270,300 C280,270 300,230 330,210 C360,190 400,184 430,182" opacity="0.55"/>
+  <text class="s" x="48" y="70" fill="#b45309">k&lt;0: QII, QIV</text>
+</svg>
