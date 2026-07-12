@@ -1,37 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Angle bisector construction">
-  <defs>
-    <style>
-      .L{stroke:#243447;stroke-width:2.5;fill:none}
-      .a{stroke:#1d4ed8;stroke-width:2;fill:none}
-      .b{stroke:#c2410c;stroke-width:2.2;fill:none}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .d{fill:#243447}
-      .f{fill:#c2410c;fill-opacity:.2;stroke:#c2410c;stroke-width:1.2}
-    </style>
-  </defs>
-  <!-- rays OA, OB -->
-  <line class="L" x1="80" y1="260" x2="560" y2="260"/>
-  <line class="L" x1="80" y1="260" x2="420" y2="40"/>
-  <!-- arc centered at O cutting both rays at C, D -->
-  <path class="a" d="M260 260 A180 180 0 0 1 215 105"/>
-  <!-- equal arcs from C and D meeting at E -->
-  <path class="a" d="M215 105 A110 110 0 0 1 320 200"/>
-  <path class="a" d="M260 260 A110 110 0 0 0 320 200"/>
-  <!-- angle bisector OE -->
-  <line class="b" x1="80" y1="260" x2="520" y2="140"/>
-  <!-- small equal-angle marks -->
-  <path class="f" d="M140 260 A60 60 0 0 1 128 205 L80 260 Z"/>
-  <path class="f" d="M140 260 A60 60 0 0 0 195 245 L80 260 Z"/>
-  <circle class="d" cx="80" cy="260" r="3.5"/>
-  <circle class="d" cx="260" cy="260" r="3.5"/>
-  <circle class="d" cx="215" cy="105" r="3.5"/>
-  <circle class="d" cx="320" cy="200" r="3.5"/>
-  <text class="t" x="58" y="280">O</text>
-  <text class="t" x="568" y="270">A</text>
-  <text class="t" x="428" y="36">B</text>
-  <text class="t" x="268" y="280">C</text>
-  <text class="t" x="190" y="95">D</text>
-  <text class="t" x="332" y="195">E</text>
-  <text class="s" x="40" y="308">arc (center O) cuts OA, OB at C, D; equal arcs from C, D meet at E; ray OE bisects angle AOB</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="80.00" y1="250.00" x2="480.00" y2="250.00"/>
+<line class="L" x1="80.00" y1="250.00" x2="267.36" y2="41.92"/>
+<path class="A" d="M220.00,250.00 A140.00,140.00 0 0 0 173.68,145.96"/>
+<path class="A" d="M266.31,167.05 A95.00,95.00 0 0 0 246.19,158.68"/>
+<path class="A" d="M259.06,187.60 A95.00,95.00 0 0 0 266.31,167.05"/>
+<line class="L" x1="80.00" y1="250.00" x2="330.26" y2="138.58"/>
+<path class="A" d="M112.00,250.00 A32.00,32.00 0 0 0 109.23,236.98"/>
+<path class="A" d="M109.23,236.98 A32.00,32.00 0 0 0 101.41,226.22"/>
+<circle class="P" cx="80.00" cy="250.00" r="2.1"/>
+<text class="T" x="64.00" y="266.00">O</text>
+<circle class="P" cx="480.00" cy="250.00" r="2.1"/>
+<text class="T" x="486.00" y="254.00">A</text>
+<circle class="P" cx="267.36" cy="41.92" r="2.1"/>
+<text class="T" x="273.36" y="35.92">B</text>
+<circle class="P" cx="220.00" cy="250.00" r="2.1"/>
+<text class="T" x="224.00" y="266.00">C</text>
+<circle class="P" cx="173.68" cy="145.96" r="2.1"/>
+<text class="T" x="159.68" y="135.96">D</text>
+<circle class="P" cx="266.31" cy="167.05" r="2.1"/>
+<text class="T" x="274.31" y="171.05">E</text>
 </svg>

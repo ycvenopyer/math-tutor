@@ -1,14 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="290" viewBox="0 0 420 290" role="img" aria-labelledby="title desc">
-  <title id="title">Rotational similarity hand-in-hand model</title>
-  <desc id="desc">Two triangles BAD and CAE share vertex A and have equal included angles.</desc>
-  <defs>
-    <style>.edge{fill:none;stroke:#334155;stroke-width:3;stroke-linejoin:round}.left{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.right{fill:#dcfce7;stroke:#16a34a;stroke-width:3}.point{fill:#dc2626}.label{font:20px Arial,sans-serif;fill:#0f172a}.arc{fill:none;stroke:#f59e0b;stroke-width:3}</style>
-  </defs>
-  <path class="left" d="M205 135L38 250L125 48Z"/>
-  <path class="right" d="M205 135L365 248L300 42Z"/>
-  <path class="edge" d="M38 250L205 135L125 48M365 248L205 135L300 42"/>
-  <path class="arc" d="M180 118A32 32 0 0 1 183 158"/>
-  <path class="arc" d="M228 157A32 32 0 0 1 231 116"/>
-  <g class="point"><circle cx="205" cy="135" r="5"/><circle cx="38" cy="250" r="5"/><circle cx="125" cy="48" r="5"/><circle cx="365" cy="248" r="5"/><circle cx="300" cy="42" r="5"/></g>
-  <g class="label"><text x="198" y="126">A</text><text x="18" y="274">B</text><text x="108" y="38">D</text><text x="370" y="272">C</text><text x="300" y="32">E</text></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 162" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="210.00" y1="40.00" x2="45.55" y2="99.85"/>
+<line class="L" x1="210.00" y1="40.00" x2="111.95" y2="122.28"/>
+<line class="L" x1="210.00" y1="40.00" x2="298.10" y2="113.92"/>
+<line class="L" x1="210.00" y1="40.00" x2="289.04" y2="68.77"/>
+<line class="L" x1="45.55" y1="99.85" x2="111.95" y2="122.28"/>
+<line class="L" x1="298.10" y1="113.92" x2="289.04" y2="68.77"/>
+<path class="A" d="M179.93,50.94 A32.00,32.00 0 0 0 185.49,60.57"/>
+<path class="A" d="M234.51,60.57 A32.00,32.00 0 0 0 240.07,50.94"/>
+<circle class="P" cx="210.00" cy="40.00" r="2.1"/>
+<text class="T" x="206.00" y="32.00">A</text>
+<circle class="P" cx="45.55" cy="99.85" r="2.1"/>
+<text class="T" x="31.55" y="113.85">B</text>
+<circle class="P" cx="111.95" cy="122.28" r="2.1"/>
+<text class="T" x="95.95" y="132.28">D</text>
+<circle class="P" cx="298.10" cy="113.92" r="2.1"/>
+<text class="T" x="304.10" y="127.92">C</text>
+<circle class="P" cx="289.04" cy="68.77" r="2.1"/>
+<text class="T" x="295.04" y="78.77">E</text>
 </svg>

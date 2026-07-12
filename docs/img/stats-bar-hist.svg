@@ -1,41 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-label="Bar chart schematic">
-  <defs>
-    <style>
-      .a{stroke:#243447;stroke-width:2.5;fill:none}
-      .b{fill:#3d6b8c}
-      .g{stroke:#94a3b8;stroke-width:1;stroke-dasharray:3 3}
-      .t{font:14px Arial,sans-serif;fill:#17202a}
-      .s{font:12px Arial,sans-serif;fill:#475569}
-    </style>
-    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#243447"/>
-    </marker>
-  </defs>
-  <line class="a" x1="60" y1="180" x2="600" y2="180" marker-end="url(#arr)"/>
-  <line class="a" x1="60" y1="180" x2="60" y2="30" marker-end="url(#arr)"/>
-  <line class="g" x1="60" y1="140" x2="560" y2="140"/>
-  <line class="g" x1="60" y1="100" x2="560" y2="100"/>
-  <line class="g" x1="60" y1="60" x2="560" y2="60"/>
-  <rect class="b" x="100" y="120" width="70" height="60"/>
-  <rect class="b" x="220" y="80" width="70" height="100"/>
-  <rect class="b" x="340" y="100" width="70" height="80"/>
-  <rect class="b" x="460" y="140" width="70" height="40"/>
-  <g class="t">
-    <text x="118" y="200">A</text>
-    <text x="238" y="200">B</text>
-    <text x="358" y="200">C</text>
-    <text x="478" y="200">D</text>
-    <text x="608" y="186">x</text>
-    <text x="28" y="40">f</text>
-  </g>
-  <g class="s">
-    <text x="48" y="144">2</text>
-    <text x="48" y="104">4</text>
-    <text x="48" y="64">6</text>
-    <text x="122" y="112">3</text>
-    <text x="242" y="72">5</text>
-    <text x="362" y="92">4</text>
-    <text x="482" y="132">2</text>
-    <text x="180" y="22">bar chart: height = frequency</text>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style>
+<marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L7,4 L0,7 Z" fill="#111"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="60.00" y1="40.00" x2="60.00" y2="220.00"/>
+<line class="L" x1="60.00" y1="220.00" x2="360.00" y2="220.00"/>
+<rect x="90" y="60" width="40" height="160" fill="#d9d9d9" stroke="#111" stroke-width="1.4"/>
+<rect x="150" y="120" width="40" height="100" fill="#d9d9d9" stroke="#111" stroke-width="1.4"/>
+<rect x="210" y="90" width="40" height="130" fill="#d9d9d9" stroke="#111" stroke-width="1.4"/>
+<rect x="270" y="150" width="40" height="70" fill="#d9d9d9" stroke="#111" stroke-width="1.4"/>
+<text class="T" x="40.00" y="36.00">y</text>
+<text class="T" x="368.00" y="226.00">x</text>
 </svg>

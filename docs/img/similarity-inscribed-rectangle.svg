@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 330" role="img" aria-label="Rectangle inscribed in a triangle"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M250 25L35 295H465Z M125 295V182H375V295 M125 182H375"/><path class="a" d="M250 25V295"/><path class="right" d="M250 279h16v16M250 182h16v16"/><g class="t"><text x="245" y="22">A</text><text x="18" y="316">B</text><text x="470" y="316">C</text><text x="112" y="316">E</text><text x="379" y="316">F</text><text x="382" y="178">G</text><text x="106" y="178">H</text><text x="255" y="177">M</text><text x="255" y="316">D</text></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 290" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M220,30 L40,250 L400,250 Z"/>
+<path class="L" d="M120,250 L320,250 L320,150 L120,150 Z"/>
+<line class="D" x1="220.00" y1="30.00" x2="220.00" y2="250.00"/>
+<path class="A" d="M220.00,240.00 L230.00,240.00 L230.00,250.00"/>
+<path class="A" d="M220.00,140.00 L230.00,140.00 L230.00,150.00"/>
+<circle class="P" cx="220.00" cy="30.00" r="2.2"/>
+<text class="T" x="216.00" y="22.00">A</text>
+<circle class="P" cx="40.00" cy="250.00" r="2.2"/>
+<text class="T" x="26.00" y="264.00">B</text>
+<circle class="P" cx="400.00" cy="250.00" r="2.2"/>
+<text class="T" x="404.00" y="264.00">C</text>
+<circle class="P" cx="120.00" cy="250.00" r="2.2"/>
+<text class="T" x="106.00" y="264.00">E</text>
+<circle class="P" cx="320.00" cy="250.00" r="2.2"/>
+<text class="T" x="324.00" y="264.00">F</text>
+<circle class="P" cx="320.00" cy="150.00" r="2.2"/>
+<text class="T" x="326.00" y="146.00">G</text>
+<circle class="P" cx="120.00" cy="150.00" r="2.2"/>
+<text class="T" x="104.00" y="146.00">H</text>
+<circle class="P" cx="220.00" cy="150.00" r="2.2"/>
+<text class="T" x="228.00" y="146.00">M</text>
+<circle class="P" cx="220.00" cy="250.00" r="2.2"/>
+<text class="T" x="228.00" y="264.00">D</text>
+</svg>

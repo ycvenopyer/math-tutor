@@ -1,34 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="Linear function y=kx+b geometric meaning of k and b">
-  <defs>
-    <style>
-      .ax{stroke:#243447;stroke-width:2;fill:none}
-      .l{stroke:#1d4ed8;stroke-width:2.5;fill:none}
-      .r{stroke:#c2410c;stroke-width:2;fill:none}
-      .d{stroke:#64748b;stroke-width:1.5;stroke-dasharray:4 3;fill:none}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .p{fill:#1d4ed8}
-      .q{fill:#c2410c}
-    </style>
-    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#243447"/></marker>
-  </defs>
-  <line class="ax" x1="40" y1="260" x2="480" y2="260" marker-end="url(#arr2)"/>
-  <line class="ax" x1="120" y1="330" x2="120" y2="30" marker-end="url(#arr2)"/>
-  <text class="t" x="488" y="266">x</text>
-  <text class="t" x="128" y="28">y</text>
-  <text class="t" x="102" y="278">O</text>
-  <!-- y = (1/2)x + 2  : intercept at (0,2)~(120,180), slope rise 2 over run 4 units of 40px = 80px rise for 160px run -->
-  <!-- unit = 40px; b=2 -> y=260-80=180; from x=0 to x=4: rise=2, y=180-80=100, x=120+160=280 -->
-  <line class="l" x1="40" y1="300" x2="440" y2="100"/>
-  <!-- intercept B(0,b) -->
-  <circle class="p" cx="120" cy="180" r="5"/>
-  <text class="t" x="128" y="172">B(0,b)</text>
-  <!-- slope triangle: from (120,180) go right 2 units (80px) to (200,180), up 1 unit (40px) to (200,140) which is on line: y = 0.5*2+2=3 -> 260-120=140 yes -->
-  <path class="r" d="M120 180 H200 V140"/>
-  <text class="s" x="148" y="198">1 (run)</text>
-  <text class="s" x="208" y="168">k (rise)</text>
-  <circle class="q" cx="200" cy="140" r="4"/>
-  <text class="s" x="300" y="88">y = kx + b (k&gt;0)</text>
-  <text class="s" x="300" y="108">k = rise / run</text>
-  <text class="s" x="300" y="128">b = y-intercept</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style>
+<marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L7,4 L0,7 Z" fill="#111"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="30.00" y1="260.00" x2="460.00" y2="260.00"/>
+<line class="L" x1="100.00" y1="330.00" x2="100.00" y2="30.00"/>
+<path class="A" d="M448,254 L460,260 L448,266"/>
+<path class="A" d="M94,42 L100,30 L106,42"/>
+<text class="T" x="468.00" y="265.00">x</text>
+<text class="T" x="108.00" y="28.00">y</text>
+<text class="T" x="84.00" y="276.00">O</text>
+<line class="H" x1="40.00" y1="210.00" x2="380.00" y2="40.00"/>
+<circle class="P" cx="100.00" cy="180.00" r="2.2"/>
+<text class="T" x="108.00" y="174.00">B</text>
+<path class="A" d="M100,180 H180 V140"/>
+<text class="N" x="134.00" y="196.00">2</text>
+<text class="N" x="186.00" y="164.00">1</text>
+<circle class="P" cx="180.00" cy="140.00" r="2.2"/>
+<text class="N" x="300.00" y="70.00">y = kx + b</text>
 </svg>

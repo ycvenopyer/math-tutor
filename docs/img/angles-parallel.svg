@@ -1,8 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Parallel lines and transversal">
-  <defs><style>.l{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round}.a{fill:none;stroke:#e4572e;stroke-width:4}.p{fill:#243447}.t{font:16px Arial,sans-serif;fill:#17202a}</style></defs>
-  <path class="l" d="M28 55 H332 M28 170 H332 M110 202 L245 18"/>
-  <path class="l" d="M58 47 l12 8 -12 8 M78 47 l12 8 -12 8 M276 162 l12 8 -12 8 M296 162 l12 8 -12 8"/>
-  <path class="a" d="M190 55 A28 28 0 0 0 201 77 M162 170 A28 28 0 0 0 151 148"/>
-  <g class="p"><circle cx="218" cy="55" r="4"/><circle cx="134" cy="170" r="4"/></g>
-  <g class="t"><text x="17" y="47">A</text><text x="335" y="48">B</text><text x="17" y="190">C</text><text x="335" y="190">D</text><text x="225" y="76">E</text><text x="111" y="164">F</text></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="30.00" y1="55.00" x2="350.00" y2="55.00"/>
+<line class="L" x1="30.00" y1="175.00" x2="350.00" y2="175.00"/>
+<line class="L" x1="95.00" y1="215.00" x2="285.00" y2="15.00"/>
+<line class="A" x1="107.50" y1="50.00" x2="107.50" y2="60.00"/>
+<line class="A" x1="112.50" y1="50.00" x2="112.50" y2="60.00"/>
+<line class="A" x1="267.50" y1="170.00" x2="267.50" y2="180.00"/>
+<line class="A" x1="272.50" y1="170.00" x2="272.50" y2="180.00"/>
+<circle class="P" cx="247.00" cy="55.00" r="2.1"/>
+<circle class="P" cx="133.00" cy="175.00" r="2.1"/>
+<path class="A" d="M223.00,55.00 A24.00,24.00 0 0 0 230.47,72.40"/>
+<path class="A" d="M157.00,175.00 A24.00,24.00 0 0 0 149.53,157.60"/>
+<text class="T" x="18.00" y="50.00">A</text>
+<text class="T" x="356.00" y="50.00">B</text>
+<text class="T" x="18.00" y="190.00">C</text>
+<text class="T" x="356.00" y="190.00">D</text>
+<text class="T" x="255.00" y="47.00">E</text>
+<text class="T" x="117.00" y="189.00">F</text>
 </svg>

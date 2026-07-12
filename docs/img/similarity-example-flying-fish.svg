@@ -1,28 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="380" height="280" viewBox="0 0 380 280" role="img" aria-labelledby="title desc">
-  <title id="title">Flying-fish similarity model</title>
-  <desc id="desc">Triangle ABC with median AD, line CEF, and auxiliary line DM parallel to CF.</desc>
-  <defs>
-    <style>
-      .main{fill:none;stroke:#334155;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
-      .aux{fill:none;stroke:#2563eb;stroke-width:3;stroke-dasharray:8 6;stroke-linecap:round}
-      .point{fill:#dc2626}
-      .label{font:20px Arial,sans-serif;fill:#0f172a}
-    </style>
-  </defs>
-  <path class="main" d="M180 25L25 245H345Z"/>
-  <line class="main" x1="180" y1="25" x2="180" y2="245"/>
-  <line class="main" x1="345" y1="245" x2="100" y2="135"/>
-  <line class="aux" x1="180" y1="245" x2="60" y2="188"/>
-  <g class="point">
-    <circle cx="180" cy="25" r="5"/><circle cx="25" cy="245" r="5"/>
-    <circle cx="345" cy="245" r="5"/><circle cx="180" cy="245" r="5"/>
-    <circle cx="180" cy="171" r="5"/><circle cx="100" cy="135" r="5"/>
-    <circle cx="60" cy="188" r="5"/>
-  </g>
-  <g class="label">
-    <text x="171" y="18">A</text><text x="7" y="266">B</text>
-    <text x="349" y="266">C</text><text x="171" y="268">D</text>
-    <text x="187" y="174">E</text><text x="83" y="128">F</text>
-    <text x="39" y="190">M</text>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 290" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+.S{font-family:"SimSun","Songti SC",serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M180,40 L50,250 L380,250 Z"/>
+<line class="L" x1="180.00" y1="40.00" x2="215.00" y2="250.00"/>
+<line class="L" x1="380.00" y1="250.00" x2="154.00" y2="82.00"/>
+<line class="L" x1="215.00" y1="250.00" x2="102.00" y2="166.00"/>
+<path class="A" d="M262.40,156.97 L255.70,157.60 L257.03,164.19"/>
+<path class="A" d="M165.20,207.37 L158.50,208.00 L159.83,214.59"/>
+<line class="A" x1="132.50" y1="246.50" x2="132.50" y2="253.50"/>
+<line class="A" x1="297.50" y1="246.50" x2="297.50" y2="253.50"/>
+<circle class="P" cx="180.00" cy="40.00" r="2.1"/>
+<text class="T" x="162.00" y="36.00">A</text>
+<circle class="P" cx="50.00" cy="250.00" r="2.1"/>
+<text class="T" x="34.00" y="266.00">B</text>
+<circle class="P" cx="380.00" cy="250.00" r="2.1"/>
+<text class="T" x="386.00" y="266.00">C</text>
+<circle class="P" cx="215.00" cy="250.00" r="2.1"/>
+<text class="T" x="211.00" y="268.00">D</text>
+<circle class="P" cx="191.67" cy="110.00" r="2.1"/>
+<text class="T" x="199.67" y="104.00">E</text>
+<circle class="P" cx="154.00" cy="82.00" r="2.1"/>
+<text class="T" x="136.00" y="86.00">F</text>
+<circle class="P" cx="102.00" cy="166.00" r="2.1"/>
+<text class="T" x="84.00" y="170.00">M</text>
 </svg>

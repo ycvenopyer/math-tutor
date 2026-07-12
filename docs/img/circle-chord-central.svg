@@ -1,31 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Perpendicular diameter theorem">
-  <defs>
-    <style>
-      .L{stroke:#243447;stroke-width:2.5;fill:none}
-      .c{stroke:#243447;stroke-width:2.5;fill:none}
-      .d{stroke:#1d4ed8;stroke-width:2.2;fill:none}
-      .ch{stroke:#c2410c;stroke-width:2.8;fill:none}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .p{fill:#243447}
-    </style>
-  </defs>
-  <!-- O(210,200) R=140; CD diameter; AB chord y=260, half=126 -->
-  <circle class="c" cx="210" cy="200" r="140"/>
-  <line class="d" x1="210" y1="60" x2="210" y2="340"/>
-  <line class="ch" x1="84" y1="260" x2="336" y2="260"/>
-  <path class="L" d="M210 245 H225 V260" stroke-width="1.8"/>
-  <circle class="p" cx="210" cy="200" r="3.5"/>
-  <circle class="p" cx="84" cy="260" r="3.5"/>
-  <circle class="p" cx="336" cy="260" r="3.5"/>
-  <circle class="p" cx="210" cy="260" r="3.5"/>
-  <circle class="p" cx="210" cy="60" r="3.5"/>
-  <circle class="p" cx="210" cy="340" r="3.5"/>
-  <text class="t" x="218" y="196">O</text>
-  <text class="t" x="66" y="278">A</text>
-  <text class="t" x="342" y="278">B</text>
-  <text class="t" x="218" y="278">M</text>
-  <text class="t" x="218" y="52">C</text>
-  <text class="t" x="218" y="360">D</text>
-  <text class="s" x="55" y="390">CD &#x22A5; AB at M &#x2192; AM=MB; arcs AC=BC, AD=BD</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style>
+<marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L7,4 L0,7 Z" fill="#111"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<circle class="L" cx="210" cy="190" r="130"/>
+<line class="L" x1="210.00" y1="60.00" x2="210.00" y2="320.00"/>
+<line class="L" x1="89.19" y1="238.00" x2="330.81" y2="238.00"/>
+<path class="A" d="M210.00,226.00 L222.00,226.00 L222.00,238.00"/>
+<line class="A" x1="149.59" y1="234.50" x2="149.59" y2="241.50"/>
+<line class="A" x1="270.41" y1="234.50" x2="270.41" y2="241.50"/>
+<circle class="P" cx="210.00" cy="190.00" r="2.2"/>
+<text class="T" x="218.00" y="186.00">O</text>
+<circle class="P" cx="89.19" cy="238.00" r="2.2"/>
+<text class="T" x="73.19" y="244.00">A</text>
+<circle class="P" cx="330.81" cy="238.00" r="2.2"/>
+<text class="T" x="336.81" y="244.00">B</text>
+<circle class="P" cx="210.00" cy="238.00" r="2.2"/>
+<text class="T" x="218.00" y="242.00">M</text>
+<circle class="P" cx="210.00" cy="60.00" r="2.2"/>
+<text class="T" x="218.00" y="56.00">C</text>
+<circle class="P" cx="210.00" cy="320.00" r="2.2"/>
+<text class="T" x="218.00" y="334.00">D</text>
 </svg>

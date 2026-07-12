@@ -1,5 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 245" role="img" aria-label="Four basic similarity configurations"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/>
-<g><text class="t" x="68" y="22">A model</text><path class="g" d="M100 35L25 210H175Z"/><path class="a" d="M62 123H138"/><path class="m" d="M91 116l9 7-9 7M108 116l9 7-9 7M76 202l9 8-9 8M115 202l9 8-9 8"/><g class="t"><text x="95" y="32">A</text><text x="10" y="228">B</text><text x="178" y="228">C</text><text x="47" y="120">D</text><text x="142" y="120">E</text></g></g>
-<g transform="translate(200)"><text class="t" x="54" y="22">inverse A</text><path class="g" d="M100 220L25 45H175Z"/><path class="a" d="M62 132H138"/><path class="m" d="M91 125l9 7-9 7M108 125l9 7-9 7M76 37l9 8-9 8M115 37l9 8-9 8"/><g class="t"><text x="95" y="239">A</text><text x="10" y="43">B</text><text x="178" y="43">C</text><text x="47" y="151">D</text><text x="142" y="151">E</text></g></g>
-<g transform="translate(400)"><text class="t" x="68" y="22">8 model</text><path class="g" d="M20 45L180 210M20 210L180 45M20 45V210M180 45V210"/><path class="m" d="M12 95h16M12 115h16M172 140h16M172 160h16"/><circle class="p" cx="100" cy="127.5" r="4"/><g class="t"><text x="3" y="40">A</text><text x="3" y="230">B</text><text x="183" y="40">C</text><text x="183" y="230">D</text><text x="106" y="125">O</text></g></g>
-<g transform="translate(600)"><text class="t" x="52" y="22">inverse 8</text><path class="g" d="M20 65L180 190M20 190L180 65M20 65V190M180 65V190"/><path class="m" d="M12 105h16M12 125h16M172 130h16M172 150h16"/><circle class="p" cx="100" cy="127.5" r="4"/><g class="t"><text x="3" y="60">A</text><text x="3" y="210">B</text><text x="183" y="60">C</text><text x="183" y="210">D</text><text x="106" y="125">O</text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M90,28 L25,165 L155,165 Z"/>
+<line class="L" x1="57.50" y1="96.50" x2="122.50" y2="96.50"/>
+<path class="A" d="M84.00,101.50 L90.00,96.50 L84.00,91.50"/>
+<path class="A" d="M84.00,170.00 L90.00,165.00 L84.00,160.00"/>
+<circle class="P" cx="90.00" cy="28.00" r="2.1"/>
+<text class="T" x="86.00" y="20.00">A</text>
+<circle class="P" cx="25.00" cy="165.00" r="2.1"/>
+<text class="T" x="11.00" y="179.00">B</text>
+<circle class="P" cx="155.00" cy="165.00" r="2.1"/>
+<text class="T" x="159.00" y="179.00">C</text>
+<circle class="P" cx="57.50" cy="96.50" r="2.1"/>
+<text class="T" x="43.50" y="100.50">D</text>
+<circle class="P" cx="122.50" cy="96.50" r="2.1"/>
+<text class="T" x="128.50" y="100.50">E</text>
+<path class="L" d="M280,165 L215,28 L345,28 Z"/>
+<line class="L" x1="247.50" y1="96.50" x2="312.50" y2="96.50"/>
+<path class="A" d="M274.00,101.50 L280.00,96.50 L274.00,91.50"/>
+<path class="A" d="M274.00,33.00 L280.00,28.00 L274.00,23.00"/>
+<circle class="P" cx="280.00" cy="165.00" r="2.1"/>
+<text class="T" x="276.00" y="179.00">A</text>
+<circle class="P" cx="215.00" cy="28.00" r="2.1"/>
+<text class="T" x="201.00" y="22.00">B</text>
+<circle class="P" cx="345.00" cy="28.00" r="2.1"/>
+<text class="T" x="349.00" y="22.00">C</text>
+<circle class="P" cx="247.50" cy="96.50" r="2.1"/>
+<text class="T" x="233.50" y="100.50">D</text>
+<circle class="P" cx="312.50" cy="96.50" r="2.1"/>
+<text class="T" x="318.50" y="100.50">E</text>
+<line class="L" x1="405.00" y1="35.00" x2="405.00" y2="165.00"/>
+<line class="L" x1="535.00" y1="35.00" x2="535.00" y2="165.00"/>
+<line class="L" x1="405.00" y1="35.00" x2="535.00" y2="165.00"/>
+<line class="L" x1="405.00" y1="165.00" x2="535.00" y2="35.00"/>
+<circle class="P" cx="470.00" cy="100.00" r="2.1"/>
+<text class="T" x="476.00" y="96.00">O</text>
+<path class="A" d="M400.00,74.50 L405.00,80.50 L410.00,74.50"/>
+<path class="A" d="M530.00,113.50 L535.00,119.50 L540.00,113.50"/>
+<circle class="P" cx="405.00" cy="35.00" r="2.1"/>
+<text class="T" x="391.00" y="31.00">A</text>
+<circle class="P" cx="405.00" cy="165.00" r="2.1"/>
+<text class="T" x="391.00" y="179.00">B</text>
+<circle class="P" cx="535.00" cy="35.00" r="2.1"/>
+<text class="T" x="539.00" y="31.00">C</text>
+<circle class="P" cx="535.00" cy="165.00" r="2.1"/>
+<text class="T" x="539.00" y="179.00">D</text>
+<line class="L" x1="585.00" y1="50.00" x2="585.00" y2="150.00"/>
+<line class="L" x1="715.00" y1="50.00" x2="715.00" y2="150.00"/>
+<line class="L" x1="585.00" y1="50.00" x2="715.00" y2="150.00"/>
+<line class="L" x1="585.00" y1="150.00" x2="715.00" y2="50.00"/>
+<circle class="P" cx="650.00" cy="100.00" r="2.1"/>
+<text class="T" x="656.00" y="96.00">O</text>
+<circle class="P" cx="585.00" cy="50.00" r="2.1"/>
+<text class="T" x="571.00" y="46.00">A</text>
+<circle class="P" cx="585.00" cy="150.00" r="2.1"/>
+<text class="T" x="571.00" y="164.00">B</text>
+<circle class="P" cx="715.00" cy="50.00" r="2.1"/>
+<text class="T" x="719.00" y="46.00">C</text>
+<circle class="P" cx="715.00" cy="150.00" r="2.1"/>
+<text class="T" x="719.00" y="164.00">D</text>
+</svg>

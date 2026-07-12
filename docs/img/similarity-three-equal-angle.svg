@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" role="img" aria-label="Three equal angles on one line"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M35 190H445M35 190L135 17L235 190L335 17L435 190"/><g class="m"><path d="M67 190A32 32 0 0 0 51 162"/><path d="M218 160A35 35 0 0 1 252 160"/><path d="M403 190A32 32 0 0 1 419 162"/></g><g class="t"><text x="22" y="212">B</text><text x="127" y="15">E</text><text x="228" y="212">D</text><text x="329" y="15">F</text><text x="438" y="212">C</text></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="40.00" y1="210.00" x2="380.00" y2="210.00"/>
+<line class="L" x1="60.00" y1="210.00" x2="135.00" y2="80.10"/>
+<line class="L" x1="135.00" y1="80.10" x2="210.00" y2="210.00"/>
+<line class="L" x1="210.00" y1="210.00" x2="60.00" y2="210.00"/>
+<line class="L" x1="360.00" y1="210.00" x2="285.00" y2="80.10"/>
+<line class="L" x1="285.00" y1="80.10" x2="210.00" y2="210.00"/>
+<line class="L" x1="210.00" y1="210.00" x2="360.00" y2="210.00"/>
+<path class="A" d="M88.00,210.00 A28.00,28.00 0 0 0 74.00,185.75"/>
+<path class="A" d="M224.00,185.75 A28.00,28.00 0 0 0 196.00,185.75"/>
+<path class="A" d="M346.00,185.75 A28.00,28.00 0 0 0 332.00,210.00"/>
+<circle class="P" cx="60.00" cy="210.00" r="2.1"/>
+<text class="T" x="46.00" y="226.00">B</text>
+<circle class="P" cx="210.00" cy="210.00" r="2.1"/>
+<text class="T" x="206.00" y="228.00">D</text>
+<circle class="P" cx="360.00" cy="210.00" r="2.1"/>
+<text class="T" x="364.00" y="226.00">C</text>
+<circle class="P" cx="135.00" cy="80.10" r="2.1"/>
+<text class="T" x="131.00" y="70.10">E</text>
+<circle class="P" cx="285.00" cy="80.10" r="2.1"/>
+<text class="T" x="281.00" y="70.10">F</text>
+<line class="L" x1="405.00" y1="210.00" x2="615.00" y2="210.00"/>
+<line class="L" x1="420.00" y1="210.00" x2="420.00" y2="120.00"/>
+<line class="L" x1="420.00" y1="120.00" x2="510.00" y2="210.00"/>
+<line class="L" x1="600.00" y1="210.00" x2="600.00" y2="120.00"/>
+<line class="L" x1="600.00" y1="120.00" x2="510.00" y2="210.00"/>
+<path class="A" d="M420.00,199.00 L431.00,199.00 L431.00,210.00"/>
+<path class="A" d="M600.00,199.00 L589.00,199.00 L589.00,210.00"/>
+<path class="A" d="M502.22,202.22 L510.00,194.44 L517.78,202.22"/>
+<circle class="P" cx="420.00" cy="210.00" r="2.1"/>
+<text class="T" x="406.00" y="226.00">B</text>
+<circle class="P" cx="510.00" cy="210.00" r="2.1"/>
+<text class="T" x="506.00" y="228.00">D</text>
+<circle class="P" cx="600.00" cy="210.00" r="2.1"/>
+<text class="T" x="604.00" y="226.00">C</text>
+<circle class="P" cx="420.00" cy="120.00" r="2.1"/>
+<text class="T" x="404.00" y="116.00">E</text>
+<circle class="P" cx="600.00" cy="120.00" r="2.1"/>
+<text class="T" x="606.00" y="116.00">F</text>
+</svg>

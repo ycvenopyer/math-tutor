@@ -1,8 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Isosceles right triangle">
-  <defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linejoin:round}.r{fill:none;stroke:#e4572e;stroke-width:2.5}.tick{stroke:#f59e0b;stroke-width:3}.p{fill:#243447}.t{font:16px Arial,sans-serif;fill:#17202a}</style></defs>
-  <path class="g" d="M70 40 V220 H250 Z"/>
-  <path class="r" d="M70 204 H86 V220"/>
-  <path class="tick" d="M63 120 H77 M156 205 l9 9"/>
-  <g class="p"><circle cx="70" cy="40" r="4"/><circle cx="70" cy="220" r="4"/><circle cx="250" cy="220" r="4"/></g>
-  <g class="t"><text x="55" y="36">A</text><text x="50" y="240">B</text><text x="255" y="240">C</text></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M120,36 L40,200 L200,200 Z"/>
+<line class="A" x1="83.15" y1="119.53" x2="76.85" y2="116.47"/>
+<line class="A" x1="163.15" y1="116.47" x2="156.85" y2="119.53"/>
+<circle class="P" cx="120.00" cy="36.00" r="2.1"/>
+<text class="T" x="114.00" y="28.00">A</text>
+<circle class="P" cx="40.00" cy="200.00" r="2.1"/>
+<text class="T" x="26.00" y="216.00">B</text>
+<circle class="P" cx="200.00" cy="200.00" r="2.1"/>
+<text class="T" x="204.00" y="216.00">C</text>
+<path class="L" d="M280,90 L470.5255888325765,200 L280,200 Z"/>
+<path class="A" d="M280.00,188.00 L292.00,188.00 L292.00,200.00"/>
+<text class="N" x="434.53" y="186.00">30°</text>
+<text class="N" x="292.00" y="118.00">60°</text>
+<circle class="P" cx="280.00" cy="90.00" r="2.1"/>
+<text class="T" x="264.00" y="84.00">A</text>
+<circle class="P" cx="470.53" cy="200.00" r="2.1"/>
+<text class="T" x="476.53" y="216.00">B</text>
+<circle class="P" cx="280.00" cy="200.00" r="2.1"/>
+<text class="T" x="264.00" y="216.00">C</text>
 </svg>

@@ -1,32 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Quadratic parabola in vertex form">
-  <defs>
-    <style>
-      .ax{stroke:#243447;stroke-width:2;fill:none}
-      .p{stroke:#7c3aed;stroke-width:2.5;fill:none}
-      .sy{stroke:#c2410c;stroke-width:1.8;stroke-dasharray:5 4;fill:none}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .v{fill:#7c3aed}
-    </style>
-    <marker id="arr4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#243447"/></marker>
-  </defs>
-  <line class="ax" x1="40" y1="280" x2="440" y2="280" marker-end="url(#arr4)"/>
-  <line class="ax" x1="120" y1="330" x2="120" y2="30" marker-end="url(#arr4)"/>
-  <text class="t" x="448" y="286">x</text>
-  <text class="t" x="128" y="28">y</text>
-  <text class="t" x="100" y="298">O</text>
-  <!-- vertex form y = a(x-h)^2 + k, a>0, vertex V(h,k) at (240,160) -->
-  <!-- parabola: from x=h-3 to h+3; scale 40px per unit; aH0.5 -->
-  <path class="p" d="M80,300 Q160,220 240,160 Q320,220 400,300"/>
-  <!-- axis of symmetry x=h -->
-  <line class="sy" x1="240" y1="40" x2="240" y2="320"/>
-  <circle class="v" cx="240" cy="160" r="5"/>
-  <text class="t" x="250" y="152">V(h,k)</text>
-  <text class="s" x="248" y="52">x = h</text>
-  <text class="s" x="300" y="100">y = a(x - h)^2 + k</text>
-  <text class="s" x="300" y="120">a &gt; 0: opens up</text>
-  <text class="s" x="300" y="140">min y = k at x = h</text>
-  <!-- mark h on x-axis -->
-  <line class="ax" x1="240" y1="274" x2="240" y2="286"/>
-  <text class="s" x="232" y="304">h</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 370" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+.S{font-family:"SimSun","Songti SC",serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="35.00" y1="290.00" x2="420.00" y2="290.00"/>
+<line class="L" x1="220.00" y1="350.00" x2="220.00" y2="28.00"/>
+<path class="A" d="M412,284 L420,290 L412,296"/>
+<path class="A" d="M214,40 L220,28 L226,40"/>
+<text class="T" x="428.00" y="295.00">x</text>
+<text class="T" x="230.00" y="24.00">y</text>
+<text class="T" x="204.00" y="308.00">O</text>
+<path class="H" d="M159.10,72.44 Q268.30,356.36 377.50,72.44"/>
+<line class="D" x1="268.30" y1="48.00" x2="268.30" y2="280.00"/>
+<circle class="P" cx="268.30" cy="214.40" r="2.1"/>
+<text class="T" x="278.30" y="208.40">V</text>
+<text class="N" x="48.00" y="55.00">y = a(x − h)² + k</text>
 </svg>

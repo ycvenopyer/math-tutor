@@ -1,36 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Inverse proportion hyperbola y=k/x branches">
-  <defs>
-    <style>
-      .ax{stroke:#243447;stroke-width:2;fill:none}
-      .h{stroke:#0f766e;stroke-width:2.5;fill:none}
-      .n{stroke:#b45309;stroke-width:2.5;fill:none}
-      .d{stroke:#94a3b8;stroke-width:1.2;stroke-dasharray:4 3;fill:none}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .p{fill:#0f766e}
-    </style>
-    <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#243447"/></marker>
-  </defs>
-  <line class="ax" x1="40" y1="180" x2="440" y2="180" marker-end="url(#arr3)"/>
-  <line class="ax" x1="240" y1="320" x2="240" y2="40" marker-end="url(#arr3)"/>
-  <text class="t" x="448" y="186">x</text>
-  <text class="t" x="248" y="36">y</text>
-  <text class="t" x="222" y="196">O</text>
-  <!-- asymptotes hint -->
-  <line class="d" x1="240" y1="40" x2="240" y2="320"/>
-  <line class="d" x1="40" y1="180" x2="440" y2="180"/>
-  <!-- y = 6/x  (k>0): unit 30px; at x=1 -> y=6; x=2 -> y=3; x=3 -> y=2; x=6 -> y=1 -->
-  <!-- origin (240,180); +x right, +y up -->
-  <path class="h" d="M270,60 C280,90 300,130 330,150 C360,170 400,176 430,178"/>
-  <path class="h" d="M210,300 C200,270 180,230 150,210 C120,190 80,184 50,182"/>
-  <!-- sample point and |k| rectangle in Q1: P(2,3) -> (240+60,180-90)=(300,90) -->
-  <path class="d" d="M240 90 H300 V180"/>
-  <circle class="p" cx="300" cy="90" r="4"/>
-  <text class="t" x="308" y="86">P</text>
-  <text class="s" x="248" y="140">|k|</text>
-  <text class="s" x="300" y="60">k&gt;0: QI, QIII</text>
-  <!-- faint k&lt;0 hint in QII as dashed orange branch tip -->
-  <path class="n" d="M210,60 C200,90 180,130 150,150 C120,170 80,176 50,178" opacity="0.55"/>
-  <path class="n" d="M270,300 C280,270 300,230 330,210 C360,190 400,184 430,182" opacity="0.55"/>
-  <text class="s" x="48" y="70" fill="#b45309">k&lt;0: QII, QIV</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style>
+<marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L7,4 L0,7 Z" fill="#111"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<line class="L" x1="30.00" y1="180.00" x2="430.00" y2="180.00"/>
+<line class="L" x1="230.00" y1="330.00" x2="230.00" y2="30.00"/>
+<path class="A" d="M418,174 L430,180 L418,186"/>
+<path class="A" d="M224,42 L230,30 L236,42"/>
+<text class="T" x="438.00" y="185.00">x</text>
+<text class="T" x="238.00" y="28.00">y</text>
+<text class="T" x="214.00" y="196.00">O</text>
+<path class="H" d="M258.6,74.2 L265.2,94.1 L271.8,107.6 L278.4,117.5 L285.0,125.0 L291.6,130.9 L298.2,135.6 L304.8,139.6 L311.4,142.8 L318.0,145.6 L324.6,148.0 L331.2,150.1 L337.8,151.9 L344.4,153.6 L351.0,155.0 L357.6,156.3 L364.2,157.5 L370.8,158.5 L377.4,159.5 L384.0,160.4 L390.6,161.2 L397.2,161.9 L403.8,162.6 L410.4,163.2 L417.0,163.8"/>
+<path class="H" d="M201.4,285.8 L194.8,265.9 L188.2,252.4 L181.6,242.5 L175.0,235.0 L168.4,229.1 L161.8,224.4 L155.2,220.4 L148.6,217.2 L142.0,214.4 L135.4,212.0 L128.8,209.9 L122.2,208.1 L115.6,206.4 L109.0,205.0 L102.4,203.7 L95.8,202.5 L89.2,201.5 L82.6,200.5 L76.0,199.6 L69.4,198.8 L62.8,198.1 L56.2,197.4 L49.6,196.8 L43.0,196.2"/>
+<text class="N" x="340.00" y="70.00">y = k/x</text>
+<text class="N" x="340.00" y="90.00">(k > 0)</text>
 </svg>

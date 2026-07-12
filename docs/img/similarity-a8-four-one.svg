@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" role="img" aria-label="Four A shapes connected by one 8 shape"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M280 25L40 300H520Z M120 208H440 M175 145H385 M40 300L385 145 M520 300L175 145"/><path class="a" d="M120 208L280 25L440 208M175 145L280 300L385 145"/><path class="m" d="M245 138l9 7-9 7M302 138l9 7-9 7M230 201l9 7-9 7M317 201l9 7-9 7"/><circle class="p" cx="280" cy="208" r="4"/><g class="t"><text x="274" y="22">A</text><text x="25" y="322">B</text><text x="525" y="322">C</text><text x="287" y="205">O</text></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M240,30 L50,260 L430,260 Z"/>
+<line class="L" x1="173.50" y1="110.50" x2="306.50" y2="110.50"/>
+<line class="L" x1="122.20" y1="172.60" x2="357.80" y2="172.60"/>
+<line class="L" x1="50.00" y1="260.00" x2="306.50" y2="110.50"/>
+<line class="L" x1="430.00" y1="260.00" x2="173.50" y2="110.50"/>
+<line class="A" x1="240.00" y1="105.50" x2="240.00" y2="115.50"/>
+<line class="A" x1="240.00" y1="167.60" x2="240.00" y2="177.60"/>
+<line class="A" x1="240.00" y1="255.00" x2="240.00" y2="265.00"/>
+<circle class="P" cx="240.00" cy="149.26" r="2.1"/>
+<text class="T" x="248.00" y="145.26">O</text>
+<circle class="P" cx="240.00" cy="30.00" r="2.1"/>
+<text class="T" x="236.00" y="22.00">A</text>
+<circle class="P" cx="50.00" cy="260.00" r="2.1"/>
+<text class="T" x="36.00" y="276.00">B</text>
+<circle class="P" cx="430.00" cy="260.00" r="2.1"/>
+<text class="T" x="434.00" y="276.00">C</text>
+<circle class="P" cx="122.20" cy="172.60" r="2.1"/>
+<text class="T" x="106.20" y="176.60">D</text>
+<circle class="P" cx="357.80" cy="172.60" r="2.1"/>
+<text class="T" x="363.80" y="176.60">E</text>
+<circle class="P" cx="173.50" cy="110.50" r="2.1"/>
+<text class="T" x="157.50" y="110.50">F</text>
+<circle class="P" cx="306.50" cy="110.50" r="2.1"/>
+<text class="T" x="312.50" y="110.50">G</text>
+</svg>

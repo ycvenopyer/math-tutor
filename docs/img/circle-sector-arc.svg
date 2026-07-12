@@ -1,30 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-label="Sector and arc">
-  <defs>
-    <style>
-      .L{stroke:#243447;stroke-width:2.4;fill:none}
-      .arc{stroke:#c2410c;stroke-width:3.2;fill:none}
-      .rad{stroke:#1d4ed8;stroke-width:2.2;fill:none}
-      .fill{fill:#dbeafe;stroke:none;opacity:0.55}
-      .t{font:15px Arial,sans-serif;fill:#17202a}
-      .s{font:13px Arial,sans-serif;fill:#475569}
-      .p{fill:#243447}
-    </style>
-  </defs>
-  <!-- O(240,200) R=140; A at -50deg, B at 20deg from +x (SVG y down) -->
-  <!-- A: 240+140*cos(-50°), 200+140*sin(-50°) = 240+90, 200-107 = (330,93) -->
-  <!-- B: 240+140*cos(20°), 200+140*sin(20°) = 240+132, 200+48 = (372,248) -->
-  <path class="fill" d="M240 200 L330 93 A140 140 0 0 1 372 248 Z"/>
-  <circle class="L" cx="240" cy="200" r="140"/>
-  <line class="rad" x1="240" y1="200" x2="330" y2="93"/>
-  <line class="rad" x1="240" y1="200" x2="372" y2="248"/>
-  <path class="arc" d="M330 93 A140 140 0 0 1 372 248"/>
-  <path class="L" d="M275 175 A42 42 0 0 1 278 220" stroke-width="1.6"/>
-  <circle class="p" cx="240" cy="200" r="3.5"/>
-  <circle class="p" cx="330" cy="93" r="3.5"/>
-  <circle class="p" cx="372" cy="248" r="3.5"/>
-  <text class="t" x="222" y="220">O</text>
-  <text class="t" x="336" y="84">A</text>
-  <text class="t" x="380" y="260">B</text>
-  <text class="t" x="278" y="198">n&#xB0;</text>
-  <text class="s" x="90" y="310">sector AOB = radii OA, OB + arc AB</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<circle class="A" cx="200" cy="180" r="120" stroke-dasharray="2 3"/>
+<line class="L" x1="200.00" y1="180.00" x2="315.91" y2="211.06"/>
+<line class="L" x1="200.00" y1="180.00" x2="231.06" y2="64.09"/>
+<path class="L" d="M315.91,211.06 A120,120 0 0 0 231.06,64.09"/>
+<path class="A" d="M227.05,187.25 A28.00,28.00 0 0 0 207.25,152.95"/>
+<text class="T" x="232.00" y="172.00">θ</text>
+<circle class="P" cx="200.00" cy="180.00" r="2.1"/>
+<text class="T" x="184.00" y="184.00">O</text>
+<circle class="P" cx="315.91" cy="211.06" r="2.1"/>
+<text class="T" x="321.91" y="225.06">A</text>
+<circle class="P" cx="231.06" cy="64.09" r="2.1"/>
+<text class="T" x="227.06" y="54.09">B</text>
 </svg>

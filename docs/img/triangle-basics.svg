@@ -1,8 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-label="Triangle medians and altitude">
-  <defs><style>.g{fill:none;stroke:#243447;stroke-width:2.5;stroke-linejoin:round}.m{fill:none;stroke:#168aad;stroke-width:2}.r{fill:none;stroke:#e4572e;stroke-width:2}.p{fill:#e4572e}.t{font:15px Arial,sans-serif;fill:#17202a}</style></defs>
-  <path class="g" d="M210 30 L40 240 H380 Z"/>
-  <path class="m" d="M210 30 L210 240 M40 240 L295 135 M380 240 L125 135"/>
-  <path class="r" d="M210 224 H226 V240"/>
-  <circle class="p" cx="210" cy="168" r="4"/>
-  <g class="t"><text x="204" y="22">A</text><text x="20" y="260">B</text><text x="385" y="260">C</text><text x="216" y="255">D</text><text x="218" y="165">G</text></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 270" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M150,40 L40,230 L390,230 Z"/>
+<line class="L" x1="150.00" y1="40.00" x2="150.00" y2="230.00"/>
+<path class="A" d="M150.00,218.00 L162.00,218.00 L162.00,230.00"/>
+<line class="D" x1="150.00" y1="40.00" x2="215.00" y2="230.00"/>
+<line class="A" x1="127.50" y1="226.50" x2="127.50" y2="233.50"/>
+<line class="A" x1="302.50" y1="226.50" x2="302.50" y2="233.50"/>
+<circle class="P" cx="150.00" cy="40.00" r="2.1"/>
+<text class="T" x="144.00" y="32.00">A</text>
+<circle class="P" cx="40.00" cy="230.00" r="2.1"/>
+<text class="T" x="26.00" y="246.00">B</text>
+<circle class="P" cx="390.00" cy="230.00" r="2.1"/>
+<text class="T" x="394.00" y="246.00">C</text>
+<circle class="P" cx="150.00" cy="230.00" r="2.1"/>
+<text class="T" x="134.00" y="246.00">H</text>
+<circle class="P" cx="215.00" cy="230.00" r="2.1"/>
+<text class="T" x="221.00" y="246.00">M</text>
 </svg>

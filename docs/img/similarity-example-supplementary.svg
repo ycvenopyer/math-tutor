@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 300" role="img" aria-label="Right triangle with perpendicular lines through P"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M60 30V250H500Z M60 80L280 140L250 250 M60 140H280V250"/><path class="a" d="M280 140L250 250"/><path class="right" d="M60 234h16v16M60 140h16v16M264 234h16v16M253 126l12 3l-3 12"/><g class="t"><text x="45" y="26">A</text><text x="42" y="272">B</text><text x="505" y="272">C</text><text x="43" y="77">E</text><text x="247" y="272">F</text><text x="286" y="137">P</text><text x="43" y="137">Q</text><text x="285" y="272">H</text></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 290" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.15;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M70,115 L70,250 L250,250 Z"/>
+<path class="A" d="M70.00,238.00 L82.00,238.00 L82.00,250.00"/>
+<line class="L" x1="178.00" y1="196.00" x2="70.00" y2="240.00"/>
+<line class="L" x1="178.00" y1="196.00" x2="200.00" y2="250.00"/>
+<path class="A" d="M168.74,199.77 L172.51,209.03 L181.77,205.26"/>
+<line class="D" x1="178.00" y1="196.00" x2="70.00" y2="196.00"/>
+<line class="D" x1="178.00" y1="196.00" x2="178.00" y2="250.00"/>
+<path class="A" d="M79.00,196.00 L79.00,205.00 L70.00,205.00"/>
+<path class="A" d="M178.00,241.00 L169.00,241.00 L169.00,250.00"/>
+<circle class="P" cx="70.00" cy="115.00" r="2.1"/>
+<text class="T" x="52.00" y="111.00">A</text>
+<circle class="P" cx="70.00" cy="250.00" r="2.1"/>
+<text class="T" x="52.00" y="266.00">B</text>
+<circle class="P" cx="250.00" cy="250.00" r="2.1"/>
+<text class="T" x="256.00" y="266.00">C</text>
+<circle class="P" cx="178.00" cy="196.00" r="2.1"/>
+<text class="T" x="186.00" y="186.00">P</text>
+<circle class="P" cx="70.00" cy="240.00" r="2.1"/>
+<text class="T" x="52.00" y="244.00">E</text>
+<circle class="P" cx="200.00" cy="250.00" r="2.1"/>
+<text class="T" x="204.00" y="266.00">F</text>
+<circle class="P" cx="70.00" cy="196.00" r="2.1"/>
+<text class="T" x="52.00" y="200.00">Q</text>
+<circle class="P" cx="178.00" cy="250.00" r="2.1"/>
+<text class="T" x="182.00" y="266.00">H</text>
+</svg>

@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270" role="img" aria-label="Isosceles right triangle cross"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M70 40V220H250Z M70 40L160 220 M70 220L190 160"/><path class="right" d="M137 181l10-5l5 10M70 204h16v16"/><path class="tick" d="M111 214v12M199 214v12"/><g class="t"><text x="55" y="36">A</text><text x="50" y="240">B</text><text x="255" y="240">C</text><text x="154" y="242">D</text><text x="194" y="157">F</text></g><path class="tick" d="M63 120h14M156 205l9 9"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 260" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.2;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:5 3.5;stroke-linecap:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;fill:#111}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M70,40 L70,220 L250,220 Z"/>
+<path class="A" d="M70.00,208.00 L82.00,208.00 L82.00,220.00"/>
+<line class="L" x1="70.00" y1="40.00" x2="160.00" y2="220.00"/>
+<line class="L" x1="70.00" y1="220.00" x2="190.00" y2="160.00"/>
+<path class="A" d="M146.47,192.94 L155.42,188.47 L150.94,179.53"/>
+<line class="A" x1="115.00" y1="216.50" x2="115.00" y2="223.50"/>
+<line class="A" x1="205.00" y1="216.50" x2="205.00" y2="223.50"/>
+<line class="A" x1="73.50" y1="130.00" x2="66.50" y2="130.00"/>
+<line class="A" x1="199.60" y1="216.50" x2="199.60" y2="223.50"/>
+<circle class="P" cx="70.00" cy="40.00" r="2.1"/>
+<text class="T" x="54.00" y="36.00">A</text>
+<circle class="P" cx="70.00" cy="220.00" r="2.1"/>
+<text class="T" x="54.00" y="234.00">B</text>
+<circle class="P" cx="250.00" cy="220.00" r="2.1"/>
+<text class="T" x="256.00" y="234.00">C</text>
+<circle class="P" cx="160.00" cy="220.00" r="2.1"/>
+<text class="T" x="156.00" y="236.00">D</text>
+<circle class="P" cx="190.00" cy="160.00" r="2.1"/>
+<text class="T" x="198.00" y="156.00">F</text>
+</svg>

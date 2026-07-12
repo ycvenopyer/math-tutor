@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 350" role="img" aria-label="Forty-five degree angle in a rectangle"><defs><style>.g{fill:none;stroke:#243447;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#168aad;stroke-width:2.5}.m{fill:none;stroke:#e4572e;stroke-width:2.5}.p{fill:#243447}.t{font:17px Arial,sans-serif;fill:#17202a}.s{font:14px Arial,sans-serif;fill:#475569}.tick{stroke:#f59e0b;stroke-width:3}.right{fill:none;stroke:#e4572e;stroke-width:2.5}</style></defs><rect width="100%" height="100%" fill="#fff"/><path class="g" d="M55 35H455V315H55Z M55 35L455 150 M55 35L340 315"/><path class="m" d="M103 49A50 50 0 0 1 91 76"/><g class="t"><text x="36" y="31">A</text><text x="460" y="31">B</text><text x="460" y="337">C</text><text x="36" y="337">D</text><text x="460" y="148">E</text><text x="340" y="337">F</text><text x="108" y="75">45&#176;</text></g><text class="s" x="215" y="28">AB = 6</text><text class="s" x="10" y="182">AD = 9</text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" role="img">
+<defs><style type="text/css">
+.L{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.A{fill:none;stroke:#111;stroke-width:1.25;stroke-linecap:round}
+.D{fill:none;stroke:#111;stroke-width:1.25;stroke-dasharray:5 3.5;stroke-linecap:round}
+.H{fill:none;stroke:#1a4a8a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.P{fill:#111;stroke:none}
+.T{font-family:"Times New Roman",Times,serif;font-size:15px;font-style:italic;fill:#111}
+.N{font-family:"Times New Roman",Times,serif;font-size:13px;font-style:normal;fill:#111}
+.S{font-family:"Times New Roman",Times,serif;font-size:12px;font-style:normal;fill:#333}
+</style></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path class="L" d="M50,40 L380,40 L380,280 L50,280 Z"/>
+<line class="L" x1="50.00" y1="40.00" x2="380.00" y2="130.00"/>
+<line class="L" x1="50.00" y1="40.00" x2="260.00" y2="280.00"/>
+<path class="A" d="M84.64,60.00 A40.00,40.00 0 0 0 88.64,29.65"/>
+<text class="N" x="98.00" y="70.00">45°</text>
+<text class="S" x="200.00" y="28.00">AB = 6</text>
+<text class="S" x="8.00" y="170.00">AD = 9</text>
+<circle class="P" cx="50.00" cy="40.00" r="2.2"/>
+<text class="T" x="34.00" y="36.00">A</text>
+<circle class="P" cx="380.00" cy="40.00" r="2.2"/>
+<text class="T" x="386.00" y="36.00">B</text>
+<circle class="P" cx="380.00" cy="280.00" r="2.2"/>
+<text class="T" x="386.00" y="294.00">C</text>
+<circle class="P" cx="50.00" cy="280.00" r="2.2"/>
+<text class="T" x="34.00" y="294.00">D</text>
+<circle class="P" cx="380.00" cy="130.00" r="2.2"/>
+<text class="T" x="388.00" y="134.00">E</text>
+<circle class="P" cx="260.00" cy="280.00" r="2.2"/>
+<text class="T" x="256.00" y="296.00">F</text>
+</svg>
